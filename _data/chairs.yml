@@ -440,13 +440,13 @@ grand_challenge_chairs:
 #       lastname: Elghandour
 #       institution: SAP, US
 
-# poster_demo_chairs: 
-#     - firstname: Miquel
-#       lastname: Pericàs
-#       institution: Chalmers University of Technology, Gothenburg
-#     - firstname: Romana
-#       lastname: Pernisch
-#       institution: Vrije Universiteit Amsterdam, The Netherlands
+poster_demo_chairs: 
+    - firstname: Manisha
+      lastname: Luthra
+      institution: Technische Universität Darmstadt, Germany
+    - firstname: Bernardo
+      lastname: Almeida
+      institution: CIÊNCIAS ULisboa, Portugal
 
 diversity_chairs: 
    - firstname: Genoveva 
