@@ -24,35 +24,86 @@ pc_chairs:
 
 
 pc_members_research:
+    - firstname: Alessandro 
+      lastname: Margara
+      institution: Politecnico di Milano
+    - firstname: Aniruddha
+      lastname: Gokhale
+      institution: Vanderbilt University
     - firstname: Boris 
-      lastname: Koldehofe
-      institution: TU Ilmenau, Germany
-    - firstname: Marina
-      lastname: Papatriantafilou
-      institution: Chalmers University of Technology, Gothenburg, Sweden
-    - firstname: Vincenzo 
-      lastname: Gulisano    
-      institution:  Chalmers University of Technology, Sweden 
+      lastname: Koldehofe    
+      institution:  TU Ilmenau      
+    - firstname:   David
+      lastname:    Eyers
+      institution: University of Otago
+    - firstname: Eiko
+      lastname:  Yoneki
+      institution: University of Cambridge  
+    - firstname: Gabriele 
+      lastname: Mencagli
+      institution: University of Pisa     
+    - firstname:   Gabriele
+      lastname:    Russo Russo
+      institution: University of Rome Tor Vergata
+    - firstname:   Gengrui
+      lastname:    Zhang
+      institution: Concordia University
+    - firstname:   Gianpaolo
+      lastname:    Cugola
+      institution: Politecnico di Milano
+    - firstname:   Guido
+      lastname:    Salvaneschi
+      institution: University of St.Gallen
+    - firstname:   Kaiwen
+      lastname:    Zhang
+      institution: ÉTS Montréal
+    - firstname:   Kostas
+      lastname:    Magoutis
+      institution: University of Crete and FORTH-ICS
+    - firstname:   Matteo
+      lastname:    Nardelli
+      institution: Bank of Italy
+    - firstname:   Matthias
+      lastname:    Weidlich
+      institution: Humboldt-Universität zu Berlin
+    - firstname:   Nalini
+      lastname:    Venkatasubramanian
+      institution: University of California, Irvine
     - firstname:   Paris
       lastname:    Carbone
-      institution: KTH Royal Institute of Technology, Sweden
-    - firstname: Valeria
-      lastname: Cardellini
-      institution: Tor Vergata University of Rome, Italy
-    - firstname: Genoveva 
-      lastname: Vargas-Solar
-      institution: French Council of Scientific Research (CNRS)
-     
-    # - firstname:   Emmanuelle
-    #   lastname:    Anceaume
-    #   institution: IRISA Rennes, France
-    # - firstname:   Sukanya
-    #   lastname:    Bhowmik
-    #   institution: University of Potsdam, Germany
-    # - firstname:   Lei
-    #   lastname:    Cao
-    #   institution: University of Arizona, USA
-    # - firstname: Georgios 
+      institution: KTH Royal Institute of Technology
+    - firstname:   Riccardo
+      lastname:    Tommasini
+      institution: INSA Lyon - LIRIS
+    - firstname:   Sandra
+      lastname:    Geisler
+      institution: RWTH Aachen University
+    - firstname:   Shadi
+      lastname:    Ibrahim
+      institution: Inria
+    - firstname:   Spyros
+      lastname:    Voulgaris
+      institution: Athens University of Economics and Business
+    - firstname:   Stefan
+      lastname:    Schulte
+      institution: Hamburg University of Technology
+    - firstname:   Thomas
+      lastname:    Plagemann
+      institution: University of Oslo
+    - firstname:   Valerio
+      lastname:    Schiavoni
+      institution: University of Neuchatel
+    - firstname:   Vana
+      lastname:    Kalogeraki
+      institution: Athens University of Economics and Business
+    - firstname:   Vasiliki
+      lastname:    Kalavri
+      institution: Boston University
+    - firstname:   Vincenzo
+      lastname:    Gulisano
+      institution: Chalmers University of Technology
+
+        # - firstname: Georgios 
     #   lastname: Christodoulou
     #   institution: Delft University of Technology, Netherlands
     # - firstname: Gianpaolo 
