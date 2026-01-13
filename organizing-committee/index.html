@@ -69,14 +69,14 @@
             {% endif %}
 
             {% if site.data.chairs.doctoral_symposium_chairs %}
-            <h1>Doctoral Symposium Co-Chairs</h1>
+            <h1>Doctoral Symposium Chair</h1>
             {% for chair in site.data.chairs.doctoral_symposium_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
             {% endif %}
 
             {% if site.data.chairs.poster_demo_chairs %}
-            <h1>Poster and Demo Chair</h1>
+            <h1>Poster and Demo Co-Chairs</h1>
             {% for chair in site.data.chairs.poster_demo_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}

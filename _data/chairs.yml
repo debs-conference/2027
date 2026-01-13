@@ -397,14 +397,13 @@ pc_members_research:
 #     #   lastname: Zhang
 #     #   institution: Doordash, USA
 
-# industry_chairs:
-#   - firstname: Nuno
-#     lastname: Cruz
-#     institution: ISEL, Portugal
-    # - firstname: Boris 
-    #   lastname: Koldehofe
-    #   institution: TU Ilmenau, Germany
-    
+industry_chairs:
+  - firstname: Daniel 
+    lastname: Ritter
+    institution: SAP, Germany
+  - firstname: Nuno
+    lastname: Cruz
+    institution: ISEL, Portugal
 
 grand_challenge_chairs:
   
@@ -437,12 +436,11 @@ grand_challenge_chairs:
 #       lastname: Papadopoulos
 #       institution: Mälardalen University (Sweden) and University of Málaga (Spain)
 
-
-# doctoral_symposium_chairs: 
-#     - firstname: Ruben 
-#       lastname: Mayer
-#       institution: University of Bayreuth, Germany
-#       email: ruben.mayer@uni-bayreuth.de
+doctoral_symposium_chairs: 
+    - firstname: Valerio  
+      lastname: Schiavoni
+      institution: Université de Neuchâtel, Switzerland
+      # email: 
 #     - firstname: Roman 
 #       lastname: Vitenberg
 #       institution: University of Oslo, Norway
