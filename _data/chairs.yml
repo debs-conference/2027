@@ -66,6 +66,9 @@ pc_members_research:
     - firstname:   Matthias
       lastname:    Weidlich
       institution: Humboldt-Universität zu Berlin
+    - firstname: Marina 
+      lastname: Papatriantafilou
+      institution: Chalmers University of Technology      
     - firstname:   Nalini
       lastname:    Venkatasubramanian
       institution: University of California, Irvine
@@ -102,10 +105,6 @@ pc_members_research:
     - firstname:   Vincenzo
       lastname:    Gulisano
       institution: Chalmers University of Technology
-
-        # - firstname: Georgios 
-    #   lastname: Christodoulou
-    #   institution: Delft University of Technology, Netherlands
     # - firstname: Gianpaolo 
     #   lastname: Cugola
     #   institution: Politecnico di Milano, Italy
