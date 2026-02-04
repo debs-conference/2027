@@ -445,14 +445,15 @@ doctoral_symposium_chairs:
 #       institution: University of Oslo, Norway
 #       email: romanvi@ifi.uio.no
 
-# pc_members_poster_demo: 
-#     - firstname: Alexander
-#       lastname: Artikis
-#       institution: TU Delft, The Netherlands
-#       email: me@me.com
-#     - firstname: Kaustubh
-#       lastname: Beedkar
-#       institution: Indian Institute of Technology, India
+pc_members_poster_demo: 
+    - firstname: Manisha
+      lastname: Luthra
+      institution: TU Delft, The Netherlands
+      email: manisha.luthra@cs.tu-darmstadt.de
+    - firstname: Bernardo
+      lastname: Almeida
+      institution: CIÊNCIAS, ULISBOA
+      email: bpdalmeida@ciencias.ulisboa.pt
       
 #     - firstname: Dhruba
 #       lastname: Borthakur
