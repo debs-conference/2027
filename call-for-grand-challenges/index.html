@@ -24,130 +24,205 @@
                        
                           <p>
                                 Since 2011, the DEBS Grand Challenge has
-                                anchored the community’s benchmarking culture with yearly, data-backed problems.
-                                The Challenge has spanned multiple domains, social games, manufacturing
-                                equipment, soccer monitoring, smart homes, taxi trips, social networks, RDF,
-                                maritime transportation with ML, LiDAR, NILM, AQI, market data, and HDD
-                                telemetry, while holding evaluation steady on correctness, throughput, and
-                                latency. Some challenges (e.g., the 2015 taxi trips) became de facto benchmarks,
-                                pushing stream processing beyond the DEBS limits. This year, we propose an
-                                alternative format: a “Call for Challenges” that invites companies to contribute
-                                well-specified, evaluable problems backed by representative datasets or secure
-                                access.
+                                anchored the community’s benchmarking culture
+                                with yearly, data-backed problems. The Challenge
+                                has spanned multiple domains, including social
+                                games, manufacturing equipment, soccer
+                                monitoring, smart homes, taxi trips, social
+                                networks, RDF, maritime transportation with ML,
+                                LiDAR, NILM, AQI, market data, and HDD
+                                telemetry, while holding evaluation steady on
+                                correctness, throughput, and latency. Some
+                                challenges (e.g., the 2015 taxi trips) became de
+                                facto benchmarks, pushing stream processing
+                                beyond the DEBS limits.
                           </p>
-                           <h2>Why should a company participate? The pitch for your boss/CEO</h2>
+                          <p>
+                            This year, we propose an alternative format: a “Call
+                            for Challenges” that invites companies and
+                            researchers to contribute well-specified, evaluable
+                            problems backed by representative datasets and
+                            well-defined evaluation criteria.
+                          </p>
+                          <p>
+                            Selected proposals will have the opportunity to
+                            become next year’s DEBS Grand Challenge, gaining
+                            visibility and attracting original solutions from
+                            experts in event and stream processing.
+                          </p>
+                           <h2>Why should a company participate? The pitch for
+                           your boss/CEO</h2>
                             <ul style="list-style-type: disc; margin-left: 1.5em;">
                               <li>
-                                <b>Strategic R&amp;D leverage:</b> turn a real backlog
-                                problem into a public benchmark; obtain diverse
-                                solution ideas without contracting multiple
-                                vendors.
+                                <b>Strategic R&amp;D leverage:</b> turn a real
+                                backlog problem into a public benchmark; obtain
+                                diverse solution ideas without contracting
+                                multiple vendors.
                               </li>
 
-                               <li><b>Technical hiring magnet:</b> attract and identify
-                              top candidates through leaderboard results,
-                                artefact reviews, and finalist Q&amp;A.</li>
+                               <li><b>Technical hiring magnet:</b> attract and
+                               identify top candidates through leaderboard
+                               results, artifact reviews, and finalist
+                               Q&amp;A.</li>
                               
                               <li><b>Technology benchmarking:</b> receive an
                               independent, apples-to-apples comparison of
                               relevant methods on your data characteristics
-                                (skew, bursts, late events, drift).</li>
+                              (skew, bursts, late events, drift).</li>
                               
-                              <li><b>Standards influence:</b> shape evaluation metrics
-                              and harness features used by academia and industry
-                                in subsequent years.</li>
+                              <li><b>Standards influence:</b> shape evaluation
+                              metrics and harness features used by academia and
+                              industry in subsequent years.</li>
                               
-                              <li><b>Brand amplification:</b> visible “DEBS Challenge
-                              Partner” status; invited talk; long-tail citations
-                              when the challenge becomes a community
-                              benchmark.</li>                              
+                              <li><b>Brand amplification:</b> selected
+                              challenges will be presented at DEBS and top
+                              proposals will be adopted as official DEBS Grand
+                              Challenge problems in the following year,
+                              potentially becoming long-term community
+                              benchmarks.</li>
                             </ul>
 
-                              <h2>Company effort (realistic commitment)</h2>
-                              <ul style="list-style-type: disc; margin-left: 1.5em;">
-                                <li>1–2 PMs/engineers for 4–6 weeks to package data + define KPIs + author tests.</li>
-                                <li>Legal review of license/DUA (1–2 cycles).</li>
-                                <li>One maintainer during the challenge window for Q&amp;A and minor patches.</li>
-                                <li>Optional on-site presence for finals and award session.</li>
-                              </ul>
+                            <h2> What is needed</h2>
+                            <ul style="list-style-type: disc; margin-left: 1.5em;">
+                              <li><b>Problem statement:</b> domain, queries/tasks, KPIs, constraints, success criteria.</li>
+                              <li><b>Dataset and its spec:</b> schema, size, velocity, skew, nulls, anomalies,</li>
+                              <ul style="list-style-type: disc; margin-left: 2.5em;"><li><b>Operations:</b> access modality (files, API, enclave), reference hardware profile, allowed dependencies.</li></ul>
+                              <li><b>Evaluation criteria: </b></li>
+                              <ul style="list-style-type: disc; margin-left: 2.5em;"><li><b>Minimum:</b> correctness tests, metric definitions.</li></ul>
+                              <ul style="list-style-type: disc; margin-left: 2.5em;"><li><b>Good:</b> ground truth to test the accuracy of the results.</li></ul>
+                              <ul style="list-style-type: disc; margin-left: 2.5em;"><li><b>Ideal:</b> baseline solution to compare against.</li></ul>
+                              <li><b>Legal: </b>data license/DUA, IP expectations, publicity terms, export restrictions.</li>
+                            </ul>
+                          
 
-                              <h2>What is needed (submission package)</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li><b>Problem statement:</b> domain, queries/tasks, KPIs, constraints, success criteria.</li>
-                               <li><b>Dataset and its spec:</b> schema, size, velocity, skew, nulls, anomalies,
-                                 <ul style="list-style-type: disc; margin-left: 1.5em;">
-                                   <li><b>Operations:</b> access modality (files, API, enclave), reference hardware profile, allowed dependencies.</li>
-                                 </ul>
-                               </li>
-                               <li><b>Evaluation Infrastructure:</b>
-                                 <ul style="list-style-type: disc; margin-left: 1.5em;">
-                                   <li>Minimum: correctness tests, metric definitions.</li>
-                                   <li>Good: compute to run experiments</li>
-                                   <li>Ideal
-                                     <ul style="list-style-type: disc; margin-left: 1.5em;">
-                                       <li><b>Baseline:</b> naive solution or expected magnitudes.</li>
-                                       <li><b>Ground truth:</b> how to test the accuracy of the results</li>
-                                     </ul>
-                                   </li>
-                                 </ul>
-                               </li>
-                               <li><b>Legal:</b> data license/DUA, IP expectations, publicity terms, export restrictions.</li>
-                             </ul>
+                            <h2>Submissions</h2>
 
-                             <h2>Intended date</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li><b>Lisbon 2026:</b> only for already prepared packages with legal clearance and a complete dry run.</li>
-                               <li><b>2027 (TBA):</b> recommended for new challenges to allow full intake, legal screening, and dry runs.</li>
-                             </ul>
+                            <p>Participants are expected to
+                            submit a short paper (maximum 6 pages) describing
+                            the proposed challenge and the main technical
+                            difficulties it introduces
+                            <a href="https://cmt3.research.microsoft.com/DEBS2026/">
+                            https://cmt3.research.microsoft.com/DEBS2026</a>.
+                            The paper should clearly describe the datasets, the
+                            evaluation criteria, and the access modalities, and
+                            motivate the relevance of the proposal to the DEBS
+                            community.</p>
 
-                             <h2>Timeline (challenge execution, relative)</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li><b>T0:</b> Call publication.</li>
-                               <li><b>T0+4 weeks:</b> Intent-to-submit (at  <a https://forms.gle/tXSavwNv4uVh7dSK7>https://forms.gle/tXSavwNv4uVh7dSK7</a>)</li>
-                               <li><b>T0+8 weeks:</b> Full proposals due.</li>
-                               <li><b>T0+10 weeks:</b> Technical review + harness dry-run on synthetic slice.</li>
-                               <li><b>T0+12 weeks:</b> Notifications; MoUs/DUAs executed.</li>
-                             </ul>
+                            <h2>Review and selection criteria</h2>
+                          <p>Submitted papers will be reviewed by the DEBS Grand
+                            Challenge Program Committee. Each proposal will be
+                            evaluated based on the following criteria:</p>
+
+                          <li>Originality and novelty of the proposed challenge,
+                            including its potential to stimulate new research
+                            directions and non-trivial solutions in event and
+                            stream processing.</li>
+                          <li>Relevance and alignment with the topics of the
+                            DEBS conference, and with the Grand Challenge
+                            tradition.</li>
+                          <li>Quality, representativeness, and availability of
+                            the dataset, including clarity of the data
+                            specification and feasibility of access for
+                            participants.</li>
+                          <li>Soundness and clarity of the evaluation
+                            methodology, including well-defined metrics,
+                            correctness criteria, and comparison procedures.</li>
+
+                            <p> Reviewers will assess both the scientific
+                            interest of the problem and its suitability as a
+                            benchmark-style challenge for the community.</p>
+
+                            <h2>Outcome of the Call for Challenges</h2>
+                            <p>This Call for Challenges directly feeds into the
+                            next edition of the DEBS Grand Challenge.</p>
+                            <p>Among the accepted submissions, one or more top
+                            proposals will be selected and used as official DEBS
+                            Grand Challenge problems for the subsequent
+                            year.</p>
+                            <p>Authors of the selected proposals will be invited
+                            to collaborate with the DEBS Grand Challenge
+                            organizers in finalizing the problem specification,
+                            datasets, and evaluation process, and may be
+                            involved in the assessment of submitted
+                            solutions.</p>
+
+                             <!--  <h2>What is needed (submission package)</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li><b>Problem statement:</b> domain, queries/tasks, KPIs, constraints, success criteria.</li> -->
+                             <!--   <li><b>Dataset and its spec:</b> schema, size, velocity, skew, nulls, anomalies, -->
+                             <!--     <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--       <li><b>Operations:</b> access modality (files, API, enclave), reference hardware profile, allowed dependencies.</li> -->
+                             <!--     </ul> -->
+                             <!--   </li> -->
+                             <!--   <li><b>Evaluation Infrastructure:</b> -->
+                             <!--     <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--       <li>Minimum: correctness tests, metric definitions.</li> -->
+                             <!--       <li>Good: compute to run experiments</li> -->
+                             <!--       <li>Ideal -->
+                             <!--         <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--           <li><b>Baseline:</b> naive solution or expected magnitudes.</li> -->
+                             <!--           <li><b>Ground truth:</b> how to test the accuracy of the results</li> -->
+                             <!--         </ul> -->
+                             <!--       </li> -->
+                             <!--     </ul> -->
+                             <!--   </li> -->
+                             <!--   <li><b>Legal:</b> data license/DUA, IP expectations, publicity terms, export restrictions.</li> -->
+                             <!-- </ul> -->
+
+                             <!-- <h2>Intended date</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li><b>Lisbon 2026:</b> only for already prepared packages with legal clearance and a complete dry run.</li> -->
+                             <!--   <li><b>2027 (TBA):</b> recommended for new challenges to allow full intake, legal screening, and dry runs.</li> -->
+                             <!-- </ul> -->
+
+                             <!-- <h2>Timeline (challenge execution, relative)</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li><b>T0:</b> Call publication.</li> -->
+                             <!--   <li><b>T0+4 weeks:</b> Intent-to-submit (at  <a https://forms.gle/tXSavwNv4uVh7dSK7>https://forms.gle/tXSavwNv4uVh7dSK7</a>)</li> -->
+                             <!--   <li><b>T0+8 weeks:</b> Full proposals due.</li> -->
+                             <!--   <li><b>T0+10 weeks:</b> Technical review + harness dry-run on synthetic slice.</li> -->
+                             <!--   <li><b>T0+12 weeks:</b> Notifications; MoUs/DUAs executed.</li> -->
+                             <!-- </ul> -->
 
 
-                             <h2>How is it done (governance and publication)</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li>Proposals evaluated by the DEBS Grand Challenge Committee.</li>
-                               <li>Accepted challenges are published on the YEAR.debs.org site with starter kit, rules, and metrics.</li>
-                               <li>For Lisbon 2026, the proposer must attend, support the evaluation, and confirm results within the proceedings deadlines.</li>
-                               <li>A challenge paper (encompassing all accepted challenges) is co-authored by the organisers.</li>
-                               <li>Every participant may submit a short paper to DEBS describing their approach (peer-reviewed).</li>
-                             </ul>
+                             <!-- <h2>How is it done (governance and publication)</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li>Proposals evaluated by the DEBS Grand Challenge Committee.</li> -->
+                             <!--   <li>Accepted challenges are published on the YEAR.debs.org site with starter kit, rules, and metrics.</li> -->
+                             <!--   <li>For Lisbon 2026, the proposer must attend, support the evaluation, and confirm results within the proceedings deadlines.</li> -->
+                             <!--   <li>A challenge paper (encompassing all accepted challenges) is co-authored by the organisers.</li> -->
+                             <!--   <li>Every participant may submit a short paper to DEBS describing their approach (peer-reviewed).</li> -->
+                             <!-- </ul> -->
                              
-                             <h2>Evaluation (fixed axes + optional)</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li><b>Correctness:</b> per-spec outputs; oracle tests; deterministic replays.</li>
-                               <li><b>Throughput:</b> sustained events/sec at ≥X correctness threshold.</li>
-                               <li><b>Latency:</b> p50/p95/p99 end-to-end; cold-start overhead; stability under backpressure.</li>
-                               <li><b>Optional secondary:</b> memory footprint, cost proxy, energy proxy.</li>
-                             </ul>
+                             <!-- <h2>Evaluation (fixed axes + optional)</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li><b>Correctness:</b> per-spec outputs; oracle tests; deterministic replays.</li> -->
+                             <!--   <li><b>Throughput:</b> sustained events/sec at ≥X correctness threshold.</li> -->
+                             <!--   <li><b>Latency:</b> p50/p95/p99 end-to-end; cold-start overhead; stability under backpressure.</li> -->
+                             <!--   <li><b>Optional secondary:</b> memory footprint, cost proxy, energy proxy.</li> -->
+                             <!-- </ul> -->
                              
-                             <h2>Licensing/IP defaults</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li><b>Code:</b> Apache-2.0 for baselines and harness.</li>
-                               <li><b>Public datasets:</b> CC BY-NC 4.0 (or ODC-By for tabular) with a no re-identification clause.</li>
-                               <li><b>Branding:</b> mutual logo use with pre-approved copy; “DEBS Challenge Partner” designation.</li>
-                             </ul>
+                             <!-- <h2>Licensing/IP defaults</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li><b>Code:</b> Apache-2.0 for baselines and harness.</li> -->
+                             <!--   <li><b>Public datasets:</b> CC BY-NC 4.0 (or ODC-By for tabular) with a no re-identification clause.</li> -->
+                             <!--   <li><b>Branding:</b> mutual logo use with pre-approved copy; “DEBS Challenge Partner” designation.</li> -->
+                             <!-- </ul> -->
                              
-                             <h2>Sponsorship/Prizes [optional]</h2>
-                             <ul style="list-style-type: disc; margin-left: 1.5em;">
-                               <li>In-kind or monetary prizes (hardware credits, cloud credits, cash).</li>
-                               <li>Awards:
-                                 <ul style="list-style-type: disc; margin-left: 1.5em;">
-                                   <li>Overall Winner (spec-compliant best composite)</li>
-                                   <li>Best Throughput</li>
-                                   <li>Best Latency</li>
-                                   <li>Stability Award</li>
-                                   <li>Industry Impact</li>
-                                 </ul>
-                               </li>
-                               <li>Benefits to participants: visibility on the leaderboard, talk slots for top teams, artifact badges.</li>
-                             </ul>
+                             <!-- <h2>Sponsorship/Prizes [optional]</h2> -->
+                             <!-- <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--   <li>In-kind or monetary prizes (hardware credits, cloud credits, cash).</li> -->
+                             <!--   <li>Awards: -->
+                             <!--     <ul style="list-style-type: disc; margin-left: 1.5em;"> -->
+                             <!--       <li>Overall Winner (spec-compliant best composite)</li> -->
+                             <!--       <li>Best Throughput</li> -->
+                             <!--       <li>Best Latency</li> -->
+                             <!--       <li>Stability Award</li> -->
+                             <!--       <li>Industry Impact</li> -->
+                             <!--     </ul> -->
+                             <!--   </li> -->
+                             <!--   <li>Benefits to participants: visibility on the leaderboard, talk slots for top teams, artifact badges.</li> -->
+                             <!-- </ul> -->
 
                              
 
