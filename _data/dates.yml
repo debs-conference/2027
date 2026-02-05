@@ -75,10 +75,10 @@ industry_camera_ready:
 #    current: April 15th, 2024
 #
 grand_challenge_submission:
-    current: 15th April, 2026
+    current: 20th April, 2026
 #    
 grand_challenge_author_notification:
-   current: 28th April, 2026
+   current: 4th May, 2026
 
 grand_challenge_camera_ready:
     current: 15th May, 2026
@@ -94,19 +94,19 @@ grand_challenge_platform_closes:
 
 #
 doctoral_symposium_submission:
-    current:  April 20th, 2026
+    current: 15th April, 2026
 
 doctoral_symposium_author_notification:
-    current: May 4th, 2026
+    current: 28th April, 2026
 
 doctoral_symposium_camera_ready:
-    current: May 15th, 2026
+    current: 15th May, 2026
 
 poster_demo_submission:
-    current: April 20th, 2026
+    current: 20th April, 2026
 #
 poster_demo_author_notification:
-    current: May 4th, 2026
+    current: 4th May, 2026
 
 poster_demo_camera_ready:
-    current: May 15th, 2026
+    current: 15th May, 2026
