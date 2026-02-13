@@ -22,10 +22,12 @@ camera_ready_fall:
     current: TBA
 
 abstract_submission_spring:
-    current: 13th February, 2026
+    old: 13th February, 2026
+    current: 22nd February, 2026
 
 research_submission_spring:
-    current: 20th February, 2026
+    old: 20th February, 2026
+    current: 1st March, 2026
 
 rebuttal_phase_spring_start:
     current: 3rd April, 2026
