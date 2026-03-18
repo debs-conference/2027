@@ -1,10 +1,78 @@
-
-- firstname: Luís
-  lastname: Rodrigues
-  affiliation: Athena Research Center
-  image: /img/keynotes/georgia.jpg
+- firstname: Sara
+  lastname: Bouchenak
+  affiliation: INSA Lyon Engineering School
+  image: /img/keynotes/sara.png 
   anchor: keynote1
-  title: PlumTree is an event dissemination algorithm designed in 2007 that aims at balancing the efficiency of structured approaches (such as the use of spanning tree) and the robustness of unstructured approaches (namely, gossip-based broadcast).  In this talk we present the background that led to the PlumTree design, how PlumTree meets its goals, and describe the path that led PlumTree to be adopted in the wild, including in application areas that did not exist when PlumTree was designed, from the dissemination of management information of highly distributed key-value stores (RIAK-DB), Blockchain solutions (through the libp2p that uses a publish-subscribe solution based on PlumTree), and more recently Web 3.0 (with its inclusion on the Iroh networking stack for decentralized systems).
+  title: Trustworthy Distributed AI and Machine Learning - Challenges and Opportunities
+  abstract: TBA
   biography: >
-    Dr. Georgia Koutrika is Research Director at Athena Research Center in Greece. Before that, she was a Senior Research Scientist at HP Labs, researcher at IBM Almaden, and postdoctoral researcher at Stanford. Her research emerges at the intersection of data management and deep learning, focusing on Conversational Data Exploration, Fair and Ethical Algorithmic Systems, and Learnt Data Management. Her work has been incorporated in commercial products, described in 19 granted patents and 26 patent applications in the US and worldwide, and published in more than 140 papers in top-tier conferences and journals.  She is a member of the VLDB Endowment Board of Trustees, coordinating EiC for VLDB Journal, and chair of the ACM Europe Working Group on Seasonal Schools. She is VLDB 2027 General Chair, EDBT2025 Demo Chair, and she was PC co-Chair for VLDB 2023, co-EiC of Proceedings of the VLDB (PVLDB) Vol 16, General Chair for ACM SIGMOD 2016, and member of the PVLDB Advisory board.  She has served in various other organization roles, including EDBT 2023 and ICDE 2021 sponsorship chair. She has served or serves as associate editor for top conferences (such as ACM SIGMOD and VLDB) and journals (TKDE, VLDB Journal).  She has received the EDBT 2023 Test-of-Time award, 2 best demo awards, and several industrial recognitions.
+    Sara Bouchenak is a distinguished Professor of Computer Science at INSA Lyon
+    engineering school. She was awarded the title of Knight in the Order of
+    Academic Palms in 2023. She was the Director of the Federation of Computer
+    Science Research Laboratories in Lyon - Saint Étienne in 2021-2025,
+    encompassing around 800 people. She is the Chair of the Women in Computing
+    Science Committee, at the Department of Computer Science – INSA Lyon. She
+    conducts research on dependable, privacy-preserving and robust distributed
+    systems and distributed/federated learning. She is involved in the
+    organization of many conferences and editorial activities, and serves as
+    general chair (SRDS 2019), program committee chair (e.g., ACM Middleware
+    2026, etc.), program committee member (e.g., IEEE DSN 2026, IEEE ICDCS 2026,
+    etc.), associate editor (e.g., IEEE Trans. On Dependable and Secure
+    Compuring 2020-2023). Prior to that, Sara was Associate Professor at the
+    University of Grenoble until 2014, a visiting researcher at Universidad
+    Politécnica de Madrid, Spain, in 2009/2010 in the group of Marta Patiño and
+    Ricardo Jimenez, a post-doctoral researcher at EPFL, Switzerland, in 2003
+    with Willy Zwaenepoel. She received her HDR (Habilitation à Diriger les
+    Recherches) from the University of Grenoble in 2010, and her PhD in computer
+    science from Grenoble Institute of Technology in 2001.
+    
+- firstname: Luis Rodrigues and João Leitão
+  lastname: 
+  affiliation: IST, University of Lisbon and FCT, Universidade Nova de Lisboa
+  image: /img/keynotes/luis_joao.png 
+  anchor: keynote2
+  title: 'Efficient and robust large-scale event dissemination: the PlumTree story'
+  abstract: >
+    PlumTree is an event dissemination algorithm designed in 2007 that aims at
+    balancing the efficiency of structured approaches (such as the use of
+    spanning tree) and the robustness of unstructured approaches (namely,
+    gossip-based broadcast). In this talk we present the background that led to
+    the PlumTree design, how PlumTree meets its goals, and describe the path
+    that led PlumTree to be adopted in the wild, including in application areas
+    that did not exist when PlumTree was designed, from the dissemination of
+    management information of highly distributed key-value stores (RIAK-DB),
+    Blockchain solutions (through the libp2p that uses a publish-subscribe
+    solution based on PlumTree), and more recently Web 3.0 (with its inclusion
+    on the Iroh networking stack for decentralized systems).
+  biography: >
+    Luís Rodrigues graduated (1986), has a Master (1991) and a PhD (1996) in
+    Electrical and Computer Engineering, by the Instituto Superior Técnico (IST)
+    da Universidade de Lisboa. He obtained the "Agregação" in Informatics (2003)
+    by the Universidade de Lisboa He is a Professor (Professor Catedrático) at
+    Departamento de Engenharia Informática, Instituto Superior Técnico,
+    Universidade de Lisboa. From 1996 to July 2007 he served at the Departmento
+    de Informática, Faculdade de Ciências (Faculty of Sciences), Universidade de
+    Lisboa. He initiated his academic career at the Electrotechnic and Computers
+    Engineering Department of Instituto Superior Técnico de Lisboa (IST) in
+    1989.
 
+    From 1986 to 1996 he was a member of the Distributed Systems and Industrial
+    Automation Group at INESC. From 1997-2007, he was a (founding) member of the
+    LASIGE laboratory at University of Lisbon, first as a member of the
+    Navigators group and later as the leader of the Distributed Algorithms and
+    Network Protocols group. He served as Director of the LASIGE in 2004-2005
+    and he served in the board of directors of INESC-ID Lisboa from 2010-2017.
+    From July 2007 he is a member of the Distributed Systems Group at INESC-ID
+    Lisboa.</br></br>
+    
+    João Leitão is an Associate Professor in the Department of Computer Science
+    at Faculdade de Ciências e Tecnologia of the Universidade Nova de Lisboa,
+    and an Integrated Member of the NOVA Laboratory for Computer Science and
+    Informatics (NOVA LINCS).
+
+    Previous to that, in 2013 João became a Postdoc researcher (and later an
+    integrated member of the NOVA Laboratory for Computer Science and
+    Informatics) of the Faculdade de Ciências e Tecnologia da Universidade Nova
+    de Lisboa. In 2015 he became an Invited assistant professor, and in 2016 an
+    Assistant Professor at the Department of Computer Science at FCT -
+    Universidade Nova de Lisboa.
