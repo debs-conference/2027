@@ -344,15 +344,18 @@ pc_members_industry:
   - firstname: Dimple 
     lastname: Shah
     institution: Amazon
+  - firstname: Fenil 
+    lastname: Shah
+    institution: Amazon	Applications    
   - firstname: JInchul 
     lastname: Kim
     institution: Amazon Web Services
   - firstname: Joyal 
     lastname: Shah 	
     institution: Otter.ai
-  - firstname: Muhammad 
-    lastname: Aftab	
-    institution: Vestas Wind Systems
+  # - firstname: Muhammad 
+  #   lastname: Aftab	
+  #   institution: Vestas Wind Systems
   - firstname: Nuno
     lastname: Cruz
     institution: ISEL/LASIGE    
