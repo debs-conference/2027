@@ -4,7 +4,19 @@
   image: /img/keynotes/sara.png 
   anchor: keynote1
   title: Trustworthy Distributed AI and Machine Learning - Challenges and Opportunities
-  abstract: TBA
+  abstract: >
+    Federated learning (FL) is a distributed machine learning paradigm that
+    enables data owners to collaborate on training models while preserving data
+    privacy. As FL effectively leverages decentralized and sensitive data
+    sources, it is increasingly used in many application domains including
+    remote healthcare, smart buildings, and mobile applications. However, FL
+    raises several ethical concerns as it may introduce bias with regard to
+    sensitive attributes (e.g., race, gender, etc.), it is not robust against
+    malicious participants that attempt to poison the data and model, and it
+    remains vulnerable to privacy attacks (e.g., membership inference attacks,
+    etc.). In this talk, we will first discuss the open scientific issues in FL
+    bias, robustness and privacy, before presenting novel FL protocols for
+    handling them.
   biography: >
     Sara Bouchenak is a distinguished Professor of Computer Science at INSA Lyon
     engineering school. She was awarded the title of Knight in the Order of
