@@ -473,11 +473,13 @@ doctoral_symposium_chairs:
 #       institution: University of Oslo, Norway
 #       email: romanvi@ifi.uio.no
 
+
+
 pc_members_poster_demo: 
     - firstname: Manisha
       lastname: Luthra
-      institution: TU Delft, The Netherlands
-      email: manisha.luthra@cs.tu-darmstadt.de
+      institution:  Ruhr University Bochum 
+      email: manisha.luthra@rub.de
     - firstname: Bernardo
       lastname: Almeida
       institution: CIÊNCIAS, ULISBOA
@@ -520,7 +522,7 @@ pc_members_poster_demo:
 poster_demo_chairs: 
     - firstname: Manisha
       lastname: Luthra
-      institution: Technische Universität Darmstadt, Germany
+      institution:  Ruhr University Bochum 
     - firstname: Bernardo
       lastname: Almeida
       institution: CIÊNCIAS ULisboa, Portugal
