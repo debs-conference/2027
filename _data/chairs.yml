@@ -365,7 +365,13 @@ pc_members_industry:
   - firstname: Zbigniew 
     lastname: Jerzak 
     institution: Berliner Hochschule für Technik Applications
-  
+  - firstname: Nilesh
+    lastname: Kumar
+    institution: Walmart
+  - firstname: Prankur
+    lastname: Gupta
+    institution: Meta Platforms Inc
+
 #     - firstname: Nivedita
 #       lastname: Gaur
 #       institution: Meta
@@ -423,7 +429,7 @@ pc_members_industry:
 #     # - firstname: Junwei 
 #     #   lastname: Zhang
 #     #   institution: Doordash, USA
-
+     
 industry_chairs:
   - firstname: Daniel 
     lastname: Ritter
