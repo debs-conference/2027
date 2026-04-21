@@ -97,7 +97,8 @@ grand_challenge_platform_closes:
 
 #
 doctoral_symposium_submission:
-    current: 15th April, 2026
+    old: 15th April, 2026
+    current: 22nd April, 2026
 
 doctoral_symposium_author_notification:
     current: 28th April, 2026
@@ -106,9 +107,11 @@ doctoral_symposium_camera_ready:
     current: 15th May, 2026
 
 poster_demo_submission:
+    old: 20th April, 2026
     current: 24th April, 2026
 #
 poster_demo_author_notification:
+    old: 4th May, 2026
     current: 8th May, 2026
 
 poster_demo_camera_ready:
