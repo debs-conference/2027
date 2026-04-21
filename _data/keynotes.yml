@@ -88,3 +88,38 @@
     de Lisboa. In 2015 he became an Invited assistant professor, and in 2016 an
     Assistant Professor at the Department of Computer Science at FCT -
     Universidade Nova de Lisboa.
+
+- firstname: Paul 
+  lastname: Castro
+  affiliation: IBM Watson Research Center
+  image: /img/keynotes/paul.png 
+  anchor: keynote3
+  title: Serverless for AI, AI for Serverless
+  abstract: >
+    Serverless computing is defined by three tenets: autoscaling with
+    scale-to-zero, pay‑as‑you‑go economics, and minimal infrastructure
+    management for users. A decade after the first serverless platforms were
+    deployed, these systems have matured beyond short‑lived, stateless functions
+    to support stateful operation and long‑lived execution. In the era of
+    generative AI, we ask whether the core serverless tenets remain relevant for
+    platforms running AI workloads, and what advantages and pitfalls arise from
+    using AI for platform research. We present our team’s research‑ and
+    engineering‑focused work addressing three key concerns: fast model actuation
+    to reduce vLLM cold‑start latency, improved KV cache performance through
+    user‑level hints called span queries, and a technique termed forward
+    compilation to optimize kernel performance. We also examine how AI‑assisted
+    development has informed our research and present early findings on
+    characterizing evolutionary optimization approaches to better understand the
+    limits of using AI as a research partner.
+  biography: >
+    Paul Castro, Ph.D. is a Senior Research Manager at the IBM Watson Research
+    Center, where he works on hybrid cloud platforms for generative AI and
+    co-leads the Platform Foundations for AI research theme. His work focuses on
+    applying serverless computing to AI model serving, agentic programming
+    models and runtimes, and cloud‑native developer tooling. A veteran of cloud
+    and mobile systems research, he was an early contributor to Apache OpenWhisk
+    and has led and contributed to widely deployed cloud platforms, earning
+    multiple IBM Research Accomplishment Awards and holds 44 patents. Paul
+    received his Ph.D. in Computer Science from UCLA and brings deep experience
+    at the intersection of systems research, platform engineering, and applied
+    AI.
