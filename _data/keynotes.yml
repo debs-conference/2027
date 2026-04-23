@@ -127,9 +127,8 @@
 - firstname: Miguel
   lastname: Mascaranhas
   affiliation: Dune Analytics
-  # image:
   anchor: keynote4
-  title: DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform
+  title: 'DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform'
   abstract: >
     Dune Analytics operates DuneSQL, a data platform for blockchain analytics
     built on Trino, Delta Lake, and Parquet. Beyond query execution, DuneSQL
