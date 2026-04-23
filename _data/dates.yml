@@ -58,10 +58,12 @@ camera_ready_phd_symp:
     current: TBA
 
 tutorial_proposal_submission:
-    current: 15th April, 2026
+    old: 15th April, 2026
+    current: 28th April, 2026
    
 tutorial_proposal_author_notification:
-    current: 28th April, 2026
+    old: 28th April, 2026
+    current: 8th May, 2026
     
 tutorial_camera_ready:
     current: 15th May, 2026
