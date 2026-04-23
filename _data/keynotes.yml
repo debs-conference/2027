@@ -123,3 +123,61 @@
     received his Ph.D. in Computer Science from UCLA and brings deep experience
     at the intersection of systems research, platform engineering, and applied
     AI.
+
+- firstname: Miguel
+  lastname: Mascaranhas
+  affiliation: Dune Analytics
+  # image:
+  anchor: keynote4
+  title: DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform
+  abstract: >
+    Dune Analytics operates DuneSQL, a data platform for blockchain analytics
+    built on Trino, Delta Lake, and Parquet. Beyond query execution, DuneSQL
+    manages a heterogeneous data lake of public and private tables across dozens
+    of blockchains, with catalog search, a table explorer, team-based access
+    control, billing instrumentation, and REST APIs for both interactive users
+    and programmatic consumers.
+
+    Platforms of this scope inevitably accumulate operational tasks: metadata
+    indexing, storage cleanup, vacuuming and compaction, search reindexing,
+    billing metering, and data export delivery. In our experience, these tasks
+    grow organically and sprawl across services, repositories, runtimes, and
+    inconsistent approaches to alerting and observability. At Dune, that sprawl
+    grew into more than 50 jobs and services spread across Kubernetes CronJobs
+    and Deployments, Prefect flows, Databricks jobs, and AWS Lambdas, each with
+    its own retry logic and failure modes. This is not unique to Dune; it is a
+    common outcome in growing data platforms when operational concerns are
+    handled locally by the teams closest to them. Left unchecked, it becomes
+    unmanageable.
+
+    DuneCP is the event-driven control plane we built to address this. In this
+    talk, we describe how DuneCP evolved from a consolidation effort into a
+    system that receives and acts on events signaling maintenance or other
+    internal actions: tracking storage consumption, reindexing table metadata,
+    checking and optimizing table health, purging tombstoned data, and
+    orchestrating incremental table export. It models operations as composable
+    events with lease-based worker coordination, heartbeat liveness, and
+    fault-tolerant recovery. It is used in production for proactive table
+    maintenance, table storage metering, and data delivery to customer Snowflake
+    and BigQuery accounts. We close with lessons from production and ongoing
+    work to expand its scope and flexibility.
+  biography: >
+    Miguel Mascarenhas Filipe is a Principal Engineer at Dune Analytics, where
+    he leads the Data Warehouse team. He designed DuneCP, an event-driven
+    control plane for DuneSQL - Dune's Trino-based distributed query engine for
+    blockchain data at scale - covering table health management, workload-aware
+    query routing, and cross-platform data delivery orchestration. He previously
+    led the design and development of DuneSQL itself, built on Parquet/Delta
+    Lake over S3 across millions of tables.
+
+    Before Dune, Miguel was a member of the launch team for Amazon DynamoDB,
+    where he worked on its control plane (partition management, replica
+    balancing, hotspot mitigation, and auto-healing of partitions and servers)
+    and was the main author of its provisioned throughput admission control
+    system. He holds 13 US patents on workload metering and throughput
+    maximization with QoS guarantees. He also held senior engineering roles at
+    Microsoft (Skype/ARIA data pipeline), Citymapper (distributed systems lead),
+    and Unbabel (core platform re-architecture).
+
+    Miguel holds an MSc in Computer and Software Engineering from Instituto
+    Superior Técnico, Lisbon.
