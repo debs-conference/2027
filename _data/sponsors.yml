@@ -3,14 +3,26 @@ gold_sponsors:
     link: https://www.acm.org
     logo: img/clients/acm_logo.svg
     sidebar: false
-  # - name: Sigmod
-  #   link: https://sigmod.org
-  #   logo: img/clients/sigmod_logo.png
-  #   sidebar: false
-  # - name: Sigsoft
-  #   link: https://sigsoft.org
-  #   logo: img/clients/sigsoft_logo.png
-  #   sidebar: false
+  - name: Sigmod
+    link: https://sigmod.org
+    logo: img/clients/sigmod_logo.png
+    sidebar: false
+  - name: Sigsoft
+    link: https://sigsoft.org
+    logo: img/clients/sigsoft_logo.png
+    sidebar: false
+  - name: LASIGE
+    link: https://lasige.pt
+    logo: img/clients/lasige_logo.jpg
+    sidebar: false
+  - name: Ciências
+    link: https://ciencias.ulisboa.pt
+    logo: img/clients/ciencias_logo.png
+    sidebar: false
+  - name: ULisboa
+    link: https://ulisboa.pt
+    logo: img/clients/ulisboa_logo.jpg
+    sidebar: false
   # - name: AoAEnergy
   #   link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/energy-area-of-advance/
   #   logo: img/clients/aoa-energy_logo_600px.jpg
