@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    padding: 16px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.15;
+    margin-bottom: 40px;
+}
+
+th, td {
+    border: 1px solid #d9e2ef;
+    padding: 4px 7px;
+    text-align: center;
+    vertical-align: middle;
+    height: 24px;
+}
+
+th {
+    background: #1f4e79;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) td {
+    /* background: #f9fbfd; */
+}
+
+.time-col {
+    background: #eef4fb;
+    font-weight: bold;
+    width: 70px;
+    white-space: nowrap;
+}
+
+.day-row td {
+    background: #dfeaf7;
+    font-weight: bold;
+}
+
+
+:root {
+    --pastel-1: #f8c8dc; /* pink */
+    --pastel-2: #cfe8ff; /* light blue */
+    --pastel-3: #d7f5d1; /* mint */
+    --pastel-4: #fff1b8; /* soft yellow */
+    --pastel-5: #e6d7ff; /* lavender */
+    --pastel-6: #ffd6b8; /* peach */
+    --pastel-7: #c9f2ef; /* aqua */
+    --pastel-8: #f2d9d9; /* rose beige */
+}
+
+.track-1 { background: var(--pastel-1); }
+.track-2 { background: var(--pastel-2); }
+.track-3 { background: var(--pastel-3); }
+.track-4 { background: var(--pastel-4); }
+.track-5 { background: var(--pastel-5); }
+.track-6 { background: var(--pastel-6); }
+.track-7 { background: var(--pastel-7); }
+.track-8 { background: var(--pastel-8); }
+
+/* Optional: slightly soften text contrast for pastel blocks */
+/* .track-1, .track-2, .track-3, .track-4, */
+/* .track-5, .track-6, .track-7, .track-8 { */
+/*     color: #2b2b2b; */
+/*     font-weight: 500; */
+/* } */
+
+.no-top {
+  border: none !important;
+}
+
+.th-detailed {
+    background: #1f4e79;
+    color: white;
+    font-weight: 600;
+}
+
+.paper {
+  text-align: left !important;
+  position: relative;
+  padding-left: 14px;
+  display: flex;
+}
+
+.paper::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+/* .paper::after { */
+/*   content: ""; */
+/*   display: block; */
+/* } */
