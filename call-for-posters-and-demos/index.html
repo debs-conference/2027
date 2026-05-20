@@ -64,8 +64,10 @@
 
                             <p>Authors are strongly encouraged(but not required)
                               to provide a URL to</p>
-                            <li> a live online version of their demo, or</li>
-                            <li> a short video showcasing the main demo features.</li>                            
+                            <ul>
+                              <li> a live online version of their demo, or</li>
+                              <li> a short video showcasing the main demo features.</li>                            
+                            </ul>
 
                             <p>These materials are intended solely to support
                             the review and selection process.</p>
@@ -105,6 +107,7 @@
                             <h1>Important Dates</h1>
                             <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
 
+                            <ul>
                             <li>Poster and Demo paper submissions <b>{% if
                                     site.data.dates.poster_demo_submission.old!=""
                                     %}<del>{{site.data.dates.poster_demo_submission.old}}</del> {% endif %}{% if
@@ -124,6 +127,7 @@
                                     else %}tba{% endif %}</b></li>
 
                             <li>Conference <b>{{site.data.dates.conference_dates_calls}}</b></li>
+                            </ul>
 
                         </div>
 
@@ -147,7 +151,8 @@
                                 CMT</a>.</p> {% if
                                 site.data.chairs.pc_members_poster_demo.size > 0
                                 %}
-                                <p>If you have any questions, please contact the Poster and Demo Chairs:
+                                <p>If you have any questions, please contact the Poster and Demo Chairs:</p>
+                                <ul>
                                   {% for chair in site.data.chairs.pc_members_poster_demo %}
                                    {% if chair.email != null %}
                                      <li> <a href="mailto:{{ chair.email }}">{{ chair.firstname }} {{chair.lastname}}</a></li>
@@ -155,7 +160,7 @@
                                       <li> {{ chair.firstname }} {{chair.lastname}}</li>
                                      {% endif %}
                                   {% endfor %}
-                                </p>
+                                </ul>
                                 {% endif %}                                
                             </div>
 

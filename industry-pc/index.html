@@ -21,15 +21,19 @@
             <h1>Industry and Application Co-Chairs</h1>
             <!-- <p>To be announced soon.</p> -->
             
+            <ul>
             {% for chair in site.data.chairs.industry_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            </ul>
             
             <h1>Members</h1>
             
+            <ul>
 						{% for member in site.data.chairs.pc_members_industry %}
             <li>{{member.firstname}} {{member.lastname}}, {{member.institution}}</li>
 						{% endfor %}
+            </ul>
           </div>
         </div>
       </div>

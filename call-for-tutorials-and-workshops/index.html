@@ -24,10 +24,10 @@
 
                             <h1>News and Highlights</h1>
 
-                            <p>
+                            <ul>
                                 <li>Information on ACM Artifacts Badges is available <a class="text-left"
                                         href="/acm-artifacts/">here</a>.</li>
-                            </p>
+                            </ul>
 
                         </div>
 
@@ -97,10 +97,12 @@
                         <div>
                             <h1>Important Dates</h1>
                             <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
+                            <ul>
                             <li>Tutorial Proposal Submission: <b>{{site.data.dates.tutorial_proposal_submission.current}}</b></li>                            
                             <li>Author Notification for Tutorials: <b>{{site.data.dates.tutorial_proposal_author_notification.current}}</b></li>
                             <li>Camera Ready Deadline: <b>{{site.data.dates.tutorial_camera_ready.current}}</b></li>
                             <li>Conference: <b>{{site.data.dates.conference_dates}}</b></li>                            
+                            </ul>                            
                         </div>
 
                         <div>
@@ -115,9 +117,11 @@
                         <div>                       
                             {% if site.data.chairs.grand_challenge_chairs %}
                             <h1>Tutorial and Workshops Chairs</h1>
+                            <ul>
                             {% for chair in site.data.chairs.tutorials_workshop_chairs %}
                             <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
                             {% endfor %}
+                            </ul>
                             {% endif %}                               
                         </div>
                         <div>

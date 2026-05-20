@@ -66,34 +66,37 @@
                 and Use-Cases on the following topics</b>:
               </p>
 
-               <p>    
-                 <b>Systems Design and Data Management</b>            
+               <p><b>Systems Design and Data Management</b></p>
+               <ul>
                 <li>Scalable data stream processing and complex event processing.</li>
                 <li>Dataflow execution and distributed state management.</li>
-                <li>Time series event-based database management.</b>
-                <li>Approximate event-based query processing.</b>
+                <li>Time series event-based database management.</li>
+                <li>Approximate event-based query processing.</li>
                 <li>Incremental computing, data structures, and materialized view maintenance for relational, graph, and stream data.</li>
                 <li>Cloud, fog, and edge computing, including serverless and FaaS.</li>
                 <li>Hardware acceleration and programmable hardware for event-based systems.</li>
                 <li>Software-defined networking and disaggregated memory architectures for event-based systems.</li>
-             </p>
+               </ul>
 
 
-             <p><b>Security and Privacy</b>             
+             <p><b>Security and Privacy</b></p>
+             <ul>
                <li>Security, encryption, forecasting, and in-network processing for data streams.</li>
                <li>Sustainability, security, reliability, and resilience in event-based systems.</li>
                <li>Scalable distributed ledger and blockchain..</li>
-             </p>
+             </ul>
              
-              <p><b>AI/ML for Systems and Systems for AI/ML</b>
+              <p><b>AI/ML for Systems and Systems for AI/ML</b></p>
+              <ul>
                 <li>Event-based systems for ML: optimizing end-to-end AI/ML
                 pipelines using event-based systems, i.e., feature engineering,
                 distributed training, and serving.</li>
                <li>ML for event-based systems: improving performance using AI/ML
                methods.</li>
-              </p>
+              </ul>
               
-              <p> <b>Applications, Use-Cases and Benchmarks</b>
+              <p><b>Applications, Use-Cases and Benchmarks</b></p>
+              <ul>
                 <li>Applications and use cases regarding Internet-of-Things
                 (IoT), smart cities, virtual and extended/augmented reality,
                 cyber-physical systems, and sensor networks.</li>
@@ -102,10 +105,11 @@
                 transport scheduling and optimization, multimedia analytics,
                 computer/network security, and social networking.</li>
                 <li>Benchmarks for event-based systems</li>
-              </p>
+              </ul>
                 <p>
                 <h1>DEBS will focus on original contributions of the following types:</h1>
-                  
+                
+                <ul>
                 <li>Research papers (up to 12 pages, excluding references):
                 These papers present original research on the topics listed
                 above and will be assessed based on the significance of the
@@ -140,6 +144,7 @@
                 submissions, rather than focusing on extensive empirical
                 results, the goal should be to propose, justify, or critically
                 analyze a specific viewpoint or future path for a field.</li>
+                </ul>
                   
                 </p>
 
@@ -264,8 +269,10 @@
                 ease the transition and allow more time for institutions to join
                   ACM Open. The subsidy will offer:</p>
                 
-                  <li>$250 APC for ACM/SIG members</li>
-                  <li>$350 for non-members</li>
+                  <ul>
+                    <li>$250 APC for ACM/SIG members</li>
+                    <li>$350 for non-members</li>
+                  </ul>
 
                   <p>
                   This represents
@@ -292,6 +299,7 @@
                                 rebuttal phase. More information is provided below.
                             </p-->
 
+                            <ul>
                             <li>
                                 Abstract registration for research track:
                                 <b>
@@ -398,8 +406,6 @@
                                 </b>
                             </li>
 
-                            <p></p>
-
                             <li>
                                 Conference:
                                 <b>
@@ -410,19 +416,24 @@
                                     {% endif %}
                                 </b>
                             </li>
+                            </ul>
                         </div>
 
                         <div>
                             <h1>Organizers</h1>
                             <h2>General chair</h2>
+                            <ul>
                             {% for chair in site.data.chairs.general_chairs %}
                             <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
                             {% endfor %}
+                            </ul>
 
                             <h2>PC chairs</h2>
+                            <ul>
                             {% for chair in site.data.chairs.pc_chairs %}
                             <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
                             {% endfor %}
+                            </ul>
                         </div>
 
 

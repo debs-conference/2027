@@ -86,7 +86,8 @@
                             </p>
                              
                             {% if site.data.chairs.doctoral_symposium_chairs.size > 0 %}
-                                <p>Inquiries can be sent to:
+                                <p>Inquiries can be sent to:</p>
+                                <ul>
                                   {% for chair in site.data.chairs.doctoral_symposium_chairs %}
                                    {% if chair.email != null %}
                                      <li> <a href="mailto:{{ chair.email }}">{{ chair.firstname }} {{chair.lastname}}</a></li>
@@ -94,7 +95,7 @@
                                       <li> {{ chair.firstname }} {{chair.lastname}}</li>
                                      {% endif %}
                                   {% endfor %}
-                                </p>
+                                </ul>
                                 {% endif %}  
                         </div>
 
@@ -140,9 +141,10 @@
 
                         </div>
 
-                        <div div style="margin-bottom: 50px;">
+                        <div style="margin-bottom: 50px;">
                           <h1>Important Dates</h1>                        
                             <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
+                            <ul>
                             <li>Doctoral symposium paper submission: <b>{% if
                                     site.data.dates.doctoral_symposium_submission.old!=""
                                     %}<del>{{site.data.dates.doctoral_symposium_submission.old}}</del> {% endif %}{% if
@@ -169,7 +171,7 @@
                                     else %}tba{% endif %}</b></li>
 
                             <li>Conference: <b>{{site.data.dates.conference_dates_calls}}</b></li>
-
+                            </ul>
                         </div>
 
                         

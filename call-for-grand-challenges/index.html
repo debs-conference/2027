@@ -113,6 +113,7 @@
                             Challenge Program Committee. Each proposal will be
                             evaluated based on the following criteria:</p>
 
+                          <ul style="list-style-type: disc; margin-left: 1.5em;">
                           <li>Originality and novelty of the proposed challenge,
                             including its potential to stimulate new research
                             directions and non-trivial solutions in event and
@@ -127,6 +128,7 @@
                           <li>Soundness and clarity of the evaluation
                             methodology, including well-defined metrics,
                             correctness criteria, and comparison procedures.</li>
+                          </ul>
 
                             <p> Reviewers will assess both the scientific
                             interest of the problem and its suitability as a
@@ -229,9 +231,11 @@
                              <div>
                             {% if site.data.chairs.grand_challenge_chairs %}
                             <h1>Grand Challenge Co-Chairs</h1>
+                            <ul>
                             {% for chair in site.data.chairs.grand_challenge_chairs %}
                             <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
                             {% endfor %}
+                            </ul>
                             {% endif %}
                         </div>
 
