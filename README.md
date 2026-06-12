@@ -1,1 +1,1 @@
-# DEBS2026 website repository
+# DEBS2027 website repository
