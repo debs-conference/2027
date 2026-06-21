@@ -1,6 +1,6 @@
-conference_year: 2026
-conference_dates: June 23rd&ndash;26th 2026
-conference_dates_calls: June 23rd&ndash;26th, 2026
+conference_year: 2027
+conference_dates: June-July (TBA)
+conference_dates_calls: TBA
 
 abstract_submission_fall:
     # old: November 11st, 2023
@@ -22,37 +22,52 @@ camera_ready_fall:
     current: TBA
 
 abstract_submission_spring:
-    old: 13th February, 2026
-    current: 22nd February, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 research_submission_spring:
-    old: 20th February, 2026
-    current: 1st March, 2026
+   # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 rebuttal_phase_spring_start:
-    current: 3rd April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
     
 rebuttal_phase_spring_end:
-    current: 10th April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
     
 research_notification_spring:
-    current: 18th April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 research_finaldecision_spring:
     current: TBA
  
 camera_ready_spring:
-    current: 15th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
  
 industry_submission:
-    old: 24th March, 2026
-    current: 27th March, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 industry_author_notification:
-    current: 21st April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 camera_ready:
-    current: 15th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 camera_ready_phd_symp:
     current: TBA
@@ -63,36 +78,51 @@ tutorial_proposal_submission:
     current: 6th May, 2026
    
 tutorial_proposal_author_notification:
-    old: 28th April, 2026
-    current: 8th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
     
 tutorial_camera_ready:
-    current: 15th May, 2026
+   # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 #research_author_notification:
 #    current: May 6th, 2024
 #
 #
 industry_camera_ready:
-   current: 15th May, 2026
+   c# old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 #
 #grand_challenge_upload_code:
 #    old: April 5th, 2024
 #    current: April 15th, 2024
 #
 grand_challenge_submission:
-    current: 20th April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 #    
 grand_challenge_author_notification:
-   current: 4th May, 2026
+   # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 grand_challenge_camera_ready:
-    current: 15th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 grand_challenge_registration:
+    # old: November 18h, 2023
+    # current: November 25th, 2023
     current: TBA
 
 grand_challenge_platform_opens:
+    # old: November 18h, 2023
+    # current: November 25th, 2023
     current: TBA
 
 grand_challenge_platform_closes:
@@ -100,22 +130,31 @@ grand_challenge_platform_closes:
 
 #
 doctoral_symposium_submission:
-    old: 15th April, 2026
-    current: 22nd April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 doctoral_symposium_author_notification:
-    current: 28th April, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 doctoral_symposium_camera_ready:
-    current: 15th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 poster_demo_submission:
-    old: 20th April, 2026
-    current: 24th April, 2026
-#
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
+
 poster_demo_author_notification:
-    old: 4th May, 2026
-    current: 8th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA
 
 poster_demo_camera_ready:
-    current: 15th May, 2026
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBA

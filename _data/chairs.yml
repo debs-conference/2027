@@ -1,18 +1,18 @@
 general_chairs: 
-    - firstname: Hugo
-      lastname: Miranda
-      institution: CIÊNCIAS ULisboa, Portugal
-    - firstname: Nuno
-      lastname: Cruz
-      institution: ISEL, Portugal
+    - firstname: Edward
+      lastname: Curry
+      institution: University of Galway, Ireland
+    # - firstname: Nuno
+    #   lastname: Cruz
+    #   institution: ISEL, Portugal
 
 pc_chairs:
-    - firstname:   Ruben
-      lastname:    Mayer
-      institution: University of Bayreuth, Germany
-    - firstname:   Sukanya
-      lastname:    Bhowmik
-      institution: University of Potsdam, Germany
+    - firstname:   TBC
+    #   lastname:    Mayer
+    #   institution: University of Bayreuth, Germany
+    # - firstname:   Sukanya
+    #   lastname:    Bhowmik
+    #   institution: University of Potsdam, Germany
 
 # finance_chairs:
 #     - firstname: Filip
@@ -22,89 +22,89 @@ pc_chairs:
     #   lastname: Sandoz
     #   institution: University of Neuchâtel, Switzerland
 
-
+# Displayed as Members in Program committee page in committee
 pc_members_research:
-    - firstname: Alessandro 
-      lastname: Margara
-      institution: Politecnico di Milano
-    - firstname: Aniruddha
-      lastname: Gokhale
-      institution: Vanderbilt University
-    - firstname: Boris 
-      lastname: Koldehofe    
-      institution:  TU Ilmenau      
-    - firstname:   David
-      lastname:    Eyers
-      institution: University of Otago
-    - firstname: Eiko
-      lastname:  Yoneki
-      institution: University of Cambridge  
-    - firstname: Gabriele 
-      lastname: Mencagli
-      institution: University of Pisa     
-    - firstname:   Gabriele
-      lastname:    Russo Russo
-      institution: University of Rome Tor Vergata
-    - firstname:   Gengrui
-      lastname:    Zhang
-      institution: Concordia University
-    - firstname:   Gianpaolo
-      lastname:    Cugola
-      institution: Politecnico di Milano
-    - firstname:   Guido
-      lastname:    Salvaneschi
-      institution: University of St.Gallen
-    - firstname:   Kaiwen
-      lastname:    Zhang
-      institution: ÉTS Montréal
-    - firstname:   Kostas
-      lastname:    Magoutis
-      institution: University of Crete and FORTH-ICS
-    - firstname:   Matteo
-      lastname:    Nardelli
-      institution: Bank of Italy
-    - firstname:   Matthias
-      lastname:    Weidlich
-      institution: Humboldt-Universität zu Berlin
-    - firstname: Marina 
-      lastname: Papatriantafilou
-      institution: Chalmers University of Technology      
-    - firstname:   Nalini
-      lastname:    Venkatasubramanian
-      institution: University of California, Irvine
-    - firstname:   Paris
-      lastname:    Carbone
-      institution: KTH Royal Institute of Technology
-    - firstname:   Riccardo
-      lastname:    Tommasini
-      institution: INSA Lyon - LIRIS
-    - firstname:   Sandra
-      lastname:    Geisler
-      institution: RWTH Aachen University
-    - firstname:   Shadi
-      lastname:    Ibrahim
-      institution: Inria
-    - firstname:   Spyros
-      lastname:    Voulgaris
-      institution: Athens University of Economics and Business
-    - firstname:   Stefan
-      lastname:    Schulte
-      institution: Hamburg University of Technology
-    - firstname:   Thomas
-      lastname:    Plagemann
-      institution: University of Oslo
-    - firstname:   Valerio
-      lastname:    Schiavoni
-      institution: University of Neuchatel
-    - firstname:   Vana
-      lastname:    Kalogeraki
-      institution: Athens University of Economics and Business
-    - firstname:   Vasiliki
-      lastname:    Kalavri
-      institution: Boston University
-    - firstname:   Vincenzo
-      lastname:    Gulisano
-      institution: Chalmers University of Technology
+    - firstname: TBC
+    #   lastname: Margara
+    #   institution: Politecnico di Milano
+    # - firstname: Aniruddha
+    #   lastname: Gokhale
+    #   institution: Vanderbilt University
+    # - firstname: Boris 
+    #   lastname: Koldehofe    
+    #   institution:  TU Ilmenau      
+    # - firstname:   David
+    #   lastname:    Eyers
+    #   institution: University of Otago
+    # - firstname: Eiko
+    #   lastname:  Yoneki
+    #   institution: University of Cambridge  
+    # - firstname: Gabriele 
+    #   lastname: Mencagli
+    #   institution: University of Pisa     
+    # - firstname:   Gabriele
+    #   lastname:    Russo Russo
+    #   institution: University of Rome Tor Vergata
+    # - firstname:   Gengrui
+    #   lastname:    Zhang
+    #   institution: Concordia University
+    # - firstname:   Gianpaolo
+    #   lastname:    Cugola
+    #   institution: Politecnico di Milano
+    # - firstname:   Guido
+    #   lastname:    Salvaneschi
+    #   institution: University of St.Gallen
+    # - firstname:   Kaiwen
+    #   lastname:    Zhang
+    #   institution: ÉTS Montréal
+    # - firstname:   Kostas
+    #   lastname:    Magoutis
+    #   institution: University of Crete and FORTH-ICS
+    # - firstname:   Matteo
+    #   lastname:    Nardelli
+    #   institution: Bank of Italy
+    # - firstname:   Matthias
+    #   lastname:    Weidlich
+    #   institution: Humboldt-Universität zu Berlin
+    # - firstname: Marina 
+    #   lastname: Papatriantafilou
+    #   institution: Chalmers University of Technology      
+    # - firstname:   Nalini
+    #   lastname:    Venkatasubramanian
+    #   institution: University of California, Irvine
+    # - firstname:   Paris
+    #   lastname:    Carbone
+    #   institution: KTH Royal Institute of Technology
+    # - firstname:   Riccardo
+    #   lastname:    Tommasini
+    #   institution: INSA Lyon - LIRIS
+    # - firstname:   Sandra
+    #   lastname:    Geisler
+    #   institution: RWTH Aachen University
+    # - firstname:   Shadi
+    #   lastname:    Ibrahim
+    #   institution: Inria
+    # - firstname:   Spyros
+    #   lastname:    Voulgaris
+    #   institution: Athens University of Economics and Business
+    # - firstname:   Stefan
+    #   lastname:    Schulte
+    #   institution: Hamburg University of Technology
+    # - firstname:   Thomas
+    #   lastname:    Plagemann
+    #   institution: University of Oslo
+    # - firstname:   Valerio
+    #   lastname:    Schiavoni
+    #   institution: University of Neuchatel
+    # - firstname:   Vana
+    #   lastname:    Kalogeraki
+    #   institution: Athens University of Economics and Business
+    # - firstname:   Vasiliki
+    #   lastname:    Kalavri
+    #   institution: Boston University
+    # - firstname:   Vincenzo
+    #   lastname:    Gulisano
+    #   institution: Chalmers University of Technology
     # - firstname: Gianpaolo 
     #   lastname: Cugola
     #   institution: Politecnico di Milano, Italy
@@ -337,40 +337,41 @@ pc_members_research:
 #     #   lastname:    Zhang    
 #     #   institution: École de technologie supérieure de Montréal, Canada
 
+# Displayed as Members on the Industry and Application PC page in Committee
 pc_members_industry:
-  - firstname: Daniel 
-    lastname: Ritter
-    institution: SAP
-  - firstname: Dimple 
-    lastname: Shah
-    institution: Amazon
-  - firstname: Fenil 
-    lastname: Shah
-    institution: Amazon
-  - firstname: JInchul 
-    lastname: Kim
-    institution: Amazon
-  - firstname: Joyal 
-    lastname: Shah 	
-    institution: Otter.ai
+  - firstname: TBC
+  #   lastname: Ritter
+  #   institution: SAP
+  # - firstname: Dimple 
+  #   lastname: Shah
+  #   institution: Amazon
+  # - firstname: Fenil 
+  #   lastname: Shah
+  #   institution: Amazon
+  # - firstname: JInchul 
+  #   lastname: Kim
+  #   institution: Amazon
+  # - firstname: Joyal 
+  #   lastname: Shah 	
+  #   institution: Otter.ai
   # - firstname: Muhammad 
   #   lastname: Aftab	
   #   institution: Vestas Wind Systems
-  - firstname: Nuno
-    lastname: Cruz
-    institution: ISEL/LASIGE    
-  - firstname: Pratyusha 
-    lastname: Singaraju	
-    institution: Netflix Inc.
-  - firstname: Zbigniew 
-    lastname: Jerzak 
-    institution: Berliner Hochschule für Technik Applications
-  - firstname: Nilesh
-    lastname: Kumar
-    institution: Walmart
-  - firstname: Prankur
-    lastname: Gupta
-    institution: Meta Platforms Inc
+  # - firstname: Nuno
+  #   lastname: Cruz
+  #   institution: ISEL/LASIGE    
+  # - firstname: Pratyusha 
+  #   lastname: Singaraju	
+  #   institution: Netflix Inc.
+  # - firstname: Zbigniew 
+  #   lastname: Jerzak 
+  #   institution: Berliner Hochschule für Technik Applications
+  # - firstname: Nilesh
+  #   lastname: Kumar
+  #   institution: Walmart
+  # - firstname: Prankur
+  #   lastname: Gupta
+  #   institution: Meta Platforms Inc
 
 #     - firstname: Nivedita
 #       lastname: Gaur
@@ -429,36 +430,37 @@ pc_members_industry:
 #     # - firstname: Junwei 
 #     #   lastname: Zhang
 #     #   institution: Doordash, USA
-     
+
+# Displayed as Industry and Application Co-charis in organising committee
 industry_chairs:
-  - firstname: Daniel 
-    lastname: Ritter
-    institution: SAP
-  - firstname: Nuno
-    lastname: Cruz
-    institution: ISEL/LASIGE    
+  - firstname: TBC
+  #   lastname: Ritter
+  #   institution: SAP
+  # - firstname: Nuno
+  #   lastname: Cruz
+  #   institution: ISEL/LASIGE    
 
 grand_challenge_chairs:
   
-    - firstname: Luca
-      lastname: De Martini
-      institution: Politecnico di Milano
+    - firstname: TBC
+    #   lastname: De Martini
+    #   institution: Politecnico di Milano
         
-    - firstname: Alessandro 
-      lastname: Margara
-      institution: Politecnico di Milano
+    # - firstname: Alessandro 
+    #   lastname: Margara
+    #   institution: Politecnico di Milano
 
-    - firstname: Jawad
-      lastname: Tahir
-      institution: Technical University of Munich, Germany
+    # - firstname: Jawad
+    #   lastname: Tahir
+    #   institution: Technical University of Munich, Germany
 
-    - firstname: Riccardo
-      lastname: Tommasini
-      institution: INSA Lyon, France
+    # - firstname: Riccardo
+    #   lastname: Tommasini
+    #   institution: INSA Lyon, France
         
-    - firstname: Sebastian
-      lastname: Frischbier
-      institution: Allianz Global Investors
+    # - firstname: Sebastian
+    #   lastname: Frischbier
+    #   institution: Allianz Global Investors
 
 
 # tutorials_workshop_chairs: 
@@ -470,9 +472,9 @@ grand_challenge_chairs:
 #       institution: Mälardalen University (Sweden) and University of Málaga (Spain)
 
 doctoral_symposium_chairs: 
-    - firstname: Valerio  
-      lastname: Schiavoni
-      institution: Université de Neuchâtel, Switzerland
+    - firstname: TBC
+      # lastname: Schiavoni
+      # institution: Université de Neuchâtel, Switzerland
       # email: 
 #     - firstname: Roman 
 #       lastname: Vitenberg
@@ -480,16 +482,16 @@ doctoral_symposium_chairs:
 #       email: romanvi@ifi.uio.no
 
 
-
+#  This is used in page Printing Posters in conference info (The email ID)
 pc_members_poster_demo: 
-    - firstname: Manisha
-      lastname: Luthra
-      institution:  Ruhr University Bochum 
-      email: manisha.luthra@rub.de
-    - firstname: Bernardo
-      lastname: Almeida
-      institution: CIÊNCIAS, ULISBOA
-      email: bpdalmeida@ciencias.ulisboa.pt
+    - firstname: TBC
+    #   lastname: Luthra
+    #   institution:  Ruhr University Bochum 
+    #   email: manisha.luthra@rub.de
+    # - firstname: Bernardo
+    #   lastname: Almeida
+    #   institution: CIÊNCIAS, ULISBOA
+    #   email: bpdalmeida@ciencias.ulisboa.pt
       
 #     - firstname: Dhruba
 #       lastname: Borthakur
@@ -526,13 +528,14 @@ pc_members_poster_demo:
 #       institution: SAP, US
 
 poster_demo_chairs: 
-    - firstname: Manisha
-      lastname: Luthra
-      institution:  Ruhr University Bochum 
-    - firstname: Bernardo
-      lastname: Almeida
-      institution: CIÊNCIAS ULisboa, Portugal
+    - firstname: TBC
+    #   lastname: Luthra
+    #   institution:  Ruhr University Bochum 
+    # - firstname: Bernardo
+    #   lastname: Almeida
+    #   institution: CIÊNCIAS ULisboa, Portugal
 
+# Can't find so didn't change for now
 diversity_chairs: 
    - firstname: Genoveva 
      lastname: Vargas-Solar
@@ -562,19 +565,19 @@ diversity_chairs:
 #       institution: CIÊNCIAS ULisboa, Portugal
 
 proceeding_chairs: 
-   - firstname: Diogo 
-     lastname: Lima
-     institution: ESHTE, Portugal
+   - firstname: TBC
+    #  lastname: Lima
+    #  institution: ESHTE, Portugal
 
 local_organizer_chairs: 
-   - firstname: Diogo 
-     lastname: Lima
-     institution: ESHTE, Portugal
+   - firstname: TBC
+    #  lastname: Lima
+    #  institution: ESHTE, Portugal
      
 web_chairs: 
-    - firstname: Bernardo 
-      lastname: Almeida
-      institution: CIÊNCIAS ULisboa, Portugal
+    - firstname: TBC
+      # lastname: Almeida
+      # institution: CIÊNCIAS ULisboa, Portugal
 
 # podcast_chairs:
 #     - firstname: Jack
