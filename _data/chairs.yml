@@ -8,8 +8,8 @@ general_chairs:
 
 pc_chairs:
     - firstname:   TBC
-    #   lastname:    Mayer
-    #   institution: University of Bayreuth, Germany
+      lastname:    
+      institution: 
     # - firstname:   Sukanya
     #   lastname:    Bhowmik
     #   institution: University of Potsdam, Germany
@@ -25,8 +25,8 @@ pc_chairs:
 # Displayed as Members in Program committee page in committee
 pc_members_research:
     - firstname: TBC
-    #   lastname: Margara
-    #   institution: Politecnico di Milano
+      lastname: 
+      institution: 
     # - firstname: Aniruddha
     #   lastname: Gokhale
     #   institution: Vanderbilt University
@@ -340,8 +340,8 @@ pc_members_research:
 # Displayed as Members on the Industry and Application PC page in Committee
 pc_members_industry:
   - firstname: TBC
-  #   lastname: Ritter
-  #   institution: SAP
+    lastname: 
+    institution: 
   # - firstname: Dimple 
   #   lastname: Shah
   #   institution: Amazon
@@ -434,8 +434,8 @@ pc_members_industry:
 # Displayed as Industry and Application Co-charis in organising committee
 industry_chairs:
   - firstname: TBC
-  #   lastname: Ritter
-  #   institution: SAP
+    lastname: 
+    institution: 
   # - firstname: Nuno
   #   lastname: Cruz
   #   institution: ISEL/LASIGE    
@@ -443,8 +443,8 @@ industry_chairs:
 grand_challenge_chairs:
   
     - firstname: TBC
-    #   lastname: De Martini
-    #   institution: Politecnico di Milano
+      lastname: 
+      institution: 
         
     # - firstname: Alessandro 
     #   lastname: Margara
@@ -473,8 +473,9 @@ grand_challenge_chairs:
 
 doctoral_symposium_chairs: 
     - firstname: TBC
-      # lastname: Schiavoni
-      # institution: Université de Neuchâtel, Switzerland
+      lastname: 
+      institution: 
+
       # email: 
 #     - firstname: Roman 
 #       lastname: Vitenberg
@@ -485,9 +486,9 @@ doctoral_symposium_chairs:
 #  This is used in page Printing Posters in conference info (The email ID)
 pc_members_poster_demo: 
     - firstname: TBC
-    #   lastname: Luthra
-    #   institution:  Ruhr University Bochum 
-    #   email: manisha.luthra@rub.de
+      lastname: 
+      institution:  
+      email: 
     # - firstname: Bernardo
     #   lastname: Almeida
     #   institution: CIÊNCIAS, ULISBOA
@@ -529,8 +530,8 @@ pc_members_poster_demo:
 
 poster_demo_chairs: 
     - firstname: TBC
-    #   lastname: Luthra
-    #   institution:  Ruhr University Bochum 
+      lastname: 
+      institution:  
     # - firstname: Bernardo
     #   lastname: Almeida
     #   institution: CIÊNCIAS ULisboa, Portugal
@@ -566,18 +567,18 @@ diversity_chairs:
 
 proceeding_chairs: 
    - firstname: TBC
-    #  lastname: Lima
-    #  institution: ESHTE, Portugal
+     lastname:
+     institution: 
 
 local_organizer_chairs: 
    - firstname: TBC
-    #  lastname: Lima
-    #  institution: ESHTE, Portugal
+     lastname:
+     institution: 
      
 web_chairs: 
     - firstname: TBC
-      # lastname: Almeida
-      # institution: CIÊNCIAS ULisboa, Portugal
+      lastname: 
+      institution: 
 
 # podcast_chairs:
 #     - firstname: Jack
