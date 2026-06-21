@@ -1,183 +1,183 @@
-- firstname: Sara
-  lastname: Bouchenak
-  affiliation: INSA Lyon Engineering School
-  image: /img/keynotes/sara.png 
-  anchor: keynote1
-  title: Trustworthy Distributed AI and Machine Learning - Challenges and Opportunities
-  abstract: >
-    Federated learning (FL) is a distributed machine learning paradigm that
-    enables data owners to collaborate on training models while preserving data
-    privacy. As FL effectively leverages decentralized and sensitive data
-    sources, it is increasingly used in many application domains including
-    remote healthcare, smart buildings, and mobile applications. However, FL
-    raises several ethical concerns as it may introduce bias with regard to
-    sensitive attributes (e.g., race, gender, etc.), it is not robust against
-    malicious participants that attempt to poison the data and model, and it
-    remains vulnerable to privacy attacks (e.g., membership inference attacks,
-    etc.). In this talk, we will first discuss the open scientific issues in FL
-    bias, robustness and privacy, before presenting novel FL protocols for
-    handling them.
-  biography: >
-    Sara Bouchenak is a distinguished Professor of Computer Science at INSA Lyon
-    engineering school. She was awarded the title of Knight in the Order of
-    Academic Palms in 2023. She was the Director of the Federation of Computer
-    Science Research Laboratories in Lyon - Saint Étienne in 2021-2025,
-    encompassing around 800 people. She is the Chair of the Women in Computing
-    Science Committee, at the Department of Computer Science – INSA Lyon. She
-    conducts research on dependable, privacy-preserving and robust distributed
-    systems and distributed/federated learning. She is involved in the
-    organization of many conferences and editorial activities, and serves as
-    general chair (SRDS 2019), program committee chair (e.g., ACM Middleware
-    2026, etc.), program committee member (e.g., IEEE DSN 2026, IEEE ICDCS 2026,
-    etc.), associate editor (e.g., IEEE Trans. On Dependable and Secure
-    Compuring 2020-2023). Prior to that, Sara was Associate Professor at the
-    University of Grenoble until 2014, a visiting researcher at Universidad
-    Politécnica de Madrid, Spain, in 2009/2010 in the group of Marta Patiño and
-    Ricardo Jimenez, a post-doctoral researcher at EPFL, Switzerland, in 2003
-    with Willy Zwaenepoel. She received her HDR (Habilitation à Diriger les
-    Recherches) from the University of Grenoble in 2010, and her PhD in computer
-    science from Grenoble Institute of Technology in 2001.
+# - firstname: Sara
+#   lastname: Bouchenak
+#   affiliation: INSA Lyon Engineering School
+#   image: /img/keynotes/sara.png 
+#   anchor: keynote1
+#   title: Trustworthy Distributed AI and Machine Learning - Challenges and Opportunities
+#   abstract: >
+#     Federated learning (FL) is a distributed machine learning paradigm that
+#     enables data owners to collaborate on training models while preserving data
+#     privacy. As FL effectively leverages decentralized and sensitive data
+#     sources, it is increasingly used in many application domains including
+#     remote healthcare, smart buildings, and mobile applications. However, FL
+#     raises several ethical concerns as it may introduce bias with regard to
+#     sensitive attributes (e.g., race, gender, etc.), it is not robust against
+#     malicious participants that attempt to poison the data and model, and it
+#     remains vulnerable to privacy attacks (e.g., membership inference attacks,
+#     etc.). In this talk, we will first discuss the open scientific issues in FL
+#     bias, robustness and privacy, before presenting novel FL protocols for
+#     handling them.
+#   biography: >
+#     Sara Bouchenak is a distinguished Professor of Computer Science at INSA Lyon
+#     engineering school. She was awarded the title of Knight in the Order of
+#     Academic Palms in 2023. She was the Director of the Federation of Computer
+#     Science Research Laboratories in Lyon - Saint Étienne in 2021-2025,
+#     encompassing around 800 people. She is the Chair of the Women in Computing
+#     Science Committee, at the Department of Computer Science – INSA Lyon. She
+#     conducts research on dependable, privacy-preserving and robust distributed
+#     systems and distributed/federated learning. She is involved in the
+#     organization of many conferences and editorial activities, and serves as
+#     general chair (SRDS 2019), program committee chair (e.g., ACM Middleware
+#     2026, etc.), program committee member (e.g., IEEE DSN 2026, IEEE ICDCS 2026,
+#     etc.), associate editor (e.g., IEEE Trans. On Dependable and Secure
+#     Compuring 2020-2023). Prior to that, Sara was Associate Professor at the
+#     University of Grenoble until 2014, a visiting researcher at Universidad
+#     Politécnica de Madrid, Spain, in 2009/2010 in the group of Marta Patiño and
+#     Ricardo Jimenez, a post-doctoral researcher at EPFL, Switzerland, in 2003
+#     with Willy Zwaenepoel. She received her HDR (Habilitation à Diriger les
+#     Recherches) from the University of Grenoble in 2010, and her PhD in computer
+#     science from Grenoble Institute of Technology in 2001.
     
-- firstname: Luis Rodrigues and João Leitão
-  lastname: 
-  affiliation: IST, University of Lisbon and FCT, Universidade Nova de Lisboa
-  image: /img/keynotes/luis_joao.png 
-  anchor: keynote2
-  title: 'Efficient and robust large-scale event dissemination: the PlumTree story'
-  abstract: >
-    PlumTree is an event dissemination algorithm designed in 2007 that aims at
-    balancing the efficiency of structured approaches (such as the use of
-    spanning tree) and the robustness of unstructured approaches (namely,
-    gossip-based broadcast). In this talk we present the background that led to
-    the PlumTree design, how PlumTree meets its goals, and describe the path
-    that led PlumTree to be adopted in the wild, including in application areas
-    that did not exist when PlumTree was designed, from the dissemination of
-    management information of highly distributed key-value stores (RIAK-DB),
-    Blockchain solutions (through the libp2p that uses a publish-subscribe
-    solution based on PlumTree), and more recently Web 3.0 (with its inclusion
-    on the Iroh networking stack for decentralized systems).
-  biography: >
-    Luís Rodrigues graduated (1986), has a Master (1991) and a PhD (1996) in
-    Electrical and Computer Engineering, by the Instituto Superior Técnico (IST)
-    da Universidade de Lisboa. He obtained the "Agregação" in Informatics (2003)
-    by the Universidade de Lisboa He is a Professor (Professor Catedrático) at
-    Departamento de Engenharia Informática, Instituto Superior Técnico,
-    Universidade de Lisboa. From 1996 to July 2007 he served at the Departmento
-    de Informática, Faculdade de Ciências (Faculty of Sciences), Universidade de
-    Lisboa. He initiated his academic career at the Electrotechnic and Computers
-    Engineering Department of Instituto Superior Técnico de Lisboa (IST) in
-    1989.
+# - firstname: Luis Rodrigues and João Leitão
+#   lastname: 
+#   affiliation: IST, University of Lisbon and FCT, Universidade Nova de Lisboa
+#   image: /img/keynotes/luis_joao.png 
+#   anchor: keynote2
+#   title: 'Efficient and robust large-scale event dissemination: the PlumTree story'
+#   abstract: >
+#     PlumTree is an event dissemination algorithm designed in 2007 that aims at
+#     balancing the efficiency of structured approaches (such as the use of
+#     spanning tree) and the robustness of unstructured approaches (namely,
+#     gossip-based broadcast). In this talk we present the background that led to
+#     the PlumTree design, how PlumTree meets its goals, and describe the path
+#     that led PlumTree to be adopted in the wild, including in application areas
+#     that did not exist when PlumTree was designed, from the dissemination of
+#     management information of highly distributed key-value stores (RIAK-DB),
+#     Blockchain solutions (through the libp2p that uses a publish-subscribe
+#     solution based on PlumTree), and more recently Web 3.0 (with its inclusion
+#     on the Iroh networking stack for decentralized systems).
+#   biography: >
+#     Luís Rodrigues graduated (1986), has a Master (1991) and a PhD (1996) in
+#     Electrical and Computer Engineering, by the Instituto Superior Técnico (IST)
+#     da Universidade de Lisboa. He obtained the "Agregação" in Informatics (2003)
+#     by the Universidade de Lisboa He is a Professor (Professor Catedrático) at
+#     Departamento de Engenharia Informática, Instituto Superior Técnico,
+#     Universidade de Lisboa. From 1996 to July 2007 he served at the Departmento
+#     de Informática, Faculdade de Ciências (Faculty of Sciences), Universidade de
+#     Lisboa. He initiated his academic career at the Electrotechnic and Computers
+#     Engineering Department of Instituto Superior Técnico de Lisboa (IST) in
+#     1989.
 
-    From 1986 to 1996 he was a member of the Distributed Systems and Industrial
-    Automation Group at INESC. From 1997-2007, he was a (founding) member of the
-    LASIGE laboratory at University of Lisbon, first as a member of the
-    Navigators group and later as the leader of the Distributed Algorithms and
-    Network Protocols group. He served as Director of the LASIGE in 2004-2005
-    and he served in the board of directors of INESC-ID Lisboa from 2010-2017.
-    From July 2007 he is a member of the Distributed Systems Group at INESC-ID
-    Lisboa.</br></br>
+#     From 1986 to 1996 he was a member of the Distributed Systems and Industrial
+#     Automation Group at INESC. From 1997-2007, he was a (founding) member of the
+#     LASIGE laboratory at University of Lisbon, first as a member of the
+#     Navigators group and later as the leader of the Distributed Algorithms and
+#     Network Protocols group. He served as Director of the LASIGE in 2004-2005
+#     and he served in the board of directors of INESC-ID Lisboa from 2010-2017.
+#     From July 2007 he is a member of the Distributed Systems Group at INESC-ID
+#     Lisboa.</br></br>
     
-    João Leitão is an Associate Professor in the Department of Computer Science
-    at Faculdade de Ciências e Tecnologia of the Universidade Nova de Lisboa,
-    and an Integrated Member of the NOVA Laboratory for Computer Science and
-    Informatics (NOVA LINCS).
+#     João Leitão is an Associate Professor in the Department of Computer Science
+#     at Faculdade de Ciências e Tecnologia of the Universidade Nova de Lisboa,
+#     and an Integrated Member of the NOVA Laboratory for Computer Science and
+#     Informatics (NOVA LINCS).
 
-    Previous to that, in 2013 João became a Postdoc researcher (and later an
-    integrated member of the NOVA Laboratory for Computer Science and
-    Informatics) of the Faculdade de Ciências e Tecnologia da Universidade Nova
-    de Lisboa. In 2015 he became an Invited assistant professor, and in 2016 an
-    Assistant Professor at the Department of Computer Science at FCT -
-    Universidade Nova de Lisboa.
+#     Previous to that, in 2013 João became a Postdoc researcher (and later an
+#     integrated member of the NOVA Laboratory for Computer Science and
+#     Informatics) of the Faculdade de Ciências e Tecnologia da Universidade Nova
+#     de Lisboa. In 2015 he became an Invited assistant professor, and in 2016 an
+#     Assistant Professor at the Department of Computer Science at FCT -
+#     Universidade Nova de Lisboa.
 
-- firstname: Paul 
-  lastname: Castro
-  affiliation: IBM Watson Research Center
-  image: /img/keynotes/paul.png 
-  anchor: keynote3
-  title: Serverless for AI, AI for Serverless
-  abstract: >
-    Serverless computing is defined by three tenets: autoscaling with
-    scale-to-zero, pay‑as‑you‑go economics, and minimal infrastructure
-    management for users. A decade after the first serverless platforms were
-    deployed, these systems have matured beyond short‑lived, stateless functions
-    to support stateful operation and long‑lived execution. In the era of
-    generative AI, we ask whether the core serverless tenets remain relevant for
-    platforms running AI workloads, and what advantages and pitfalls arise from
-    using AI for platform research. We present our team’s research‑ and
-    engineering‑focused work addressing three key concerns: fast model actuation
-    to reduce vLLM cold‑start latency, improved KV cache performance through
-    user‑level hints called span queries, and a technique termed forward
-    compilation to optimize kernel performance. We also examine how AI‑assisted
-    development has informed our research and present early findings on
-    characterizing evolutionary optimization approaches to better understand the
-    limits of using AI as a research partner.
-  biography: >
-    Paul Castro, Ph.D. is a Senior Research Manager at the IBM Watson Research
-    Center, where he works on hybrid cloud platforms for generative AI and
-    co-leads the Platform Foundations for AI research theme. His work focuses on
-    applying serverless computing to AI model serving, agentic programming
-    models and runtimes, and cloud‑native developer tooling. A veteran of cloud
-    and mobile systems research, he was an early contributor to Apache OpenWhisk
-    and has led and contributed to widely deployed cloud platforms, earning
-    multiple IBM Research Accomplishment Awards and holds 44 patents. Paul
-    received his Ph.D. in Computer Science from UCLA and brings deep experience
-    at the intersection of systems research, platform engineering, and applied
-    AI.
+# - firstname: Paul 
+#   lastname: Castro
+#   affiliation: IBM Watson Research Center
+#   image: /img/keynotes/paul.png 
+#   anchor: keynote3
+#   title: Serverless for AI, AI for Serverless
+#   abstract: >
+#     Serverless computing is defined by three tenets: autoscaling with
+#     scale-to-zero, pay‑as‑you‑go economics, and minimal infrastructure
+#     management for users. A decade after the first serverless platforms were
+#     deployed, these systems have matured beyond short‑lived, stateless functions
+#     to support stateful operation and long‑lived execution. In the era of
+#     generative AI, we ask whether the core serverless tenets remain relevant for
+#     platforms running AI workloads, and what advantages and pitfalls arise from
+#     using AI for platform research. We present our team’s research‑ and
+#     engineering‑focused work addressing three key concerns: fast model actuation
+#     to reduce vLLM cold‑start latency, improved KV cache performance through
+#     user‑level hints called span queries, and a technique termed forward
+#     compilation to optimize kernel performance. We also examine how AI‑assisted
+#     development has informed our research and present early findings on
+#     characterizing evolutionary optimization approaches to better understand the
+#     limits of using AI as a research partner.
+#   biography: >
+#     Paul Castro, Ph.D. is a Senior Research Manager at the IBM Watson Research
+#     Center, where he works on hybrid cloud platforms for generative AI and
+#     co-leads the Platform Foundations for AI research theme. His work focuses on
+#     applying serverless computing to AI model serving, agentic programming
+#     models and runtimes, and cloud‑native developer tooling. A veteran of cloud
+#     and mobile systems research, he was an early contributor to Apache OpenWhisk
+#     and has led and contributed to widely deployed cloud platforms, earning
+#     multiple IBM Research Accomplishment Awards and holds 44 patents. Paul
+#     received his Ph.D. in Computer Science from UCLA and brings deep experience
+#     at the intersection of systems research, platform engineering, and applied
+#     AI.
 
-- firstname: Miguel
-  lastname: Filipe
-  affiliation: Dune Analytics
-  image: /img/keynotes/MiguelFilipe.jpeg
-  anchor: keynote4
-  title: 'DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform'
-  abstract: >
-    Dune Analytics operates DuneSQL, a data platform for blockchain analytics
-    built on Trino, Delta Lake, and Parquet. Beyond query execution, DuneSQL
-    manages a heterogeneous data lake of public and private tables across dozens
-    of blockchains, with catalog search, a table explorer, team-based access
-    control, billing instrumentation, and REST APIs for both interactive users
-    and programmatic consumers.
+# - firstname: Miguel
+#   lastname: Filipe
+#   affiliation: Dune Analytics
+#   image: /img/keynotes/MiguelFilipe.jpeg
+#   anchor: keynote4
+#   title: 'DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform'
+#   abstract: >
+#     Dune Analytics operates DuneSQL, a data platform for blockchain analytics
+#     built on Trino, Delta Lake, and Parquet. Beyond query execution, DuneSQL
+#     manages a heterogeneous data lake of public and private tables across dozens
+#     of blockchains, with catalog search, a table explorer, team-based access
+#     control, billing instrumentation, and REST APIs for both interactive users
+#     and programmatic consumers.
 
-    Platforms of this scope inevitably accumulate operational tasks: metadata
-    indexing, storage cleanup, vacuuming and compaction, search reindexing,
-    billing metering, and data export delivery. In our experience, these tasks
-    grow organically and sprawl across services, repositories, runtimes, and
-    inconsistent approaches to alerting and observability. At Dune, that sprawl
-    grew into more than 50 jobs and services spread across Kubernetes CronJobs
-    and Deployments, Prefect flows, Databricks jobs, and AWS Lambdas, each with
-    its own retry logic and failure modes. This is not unique to Dune; it is a
-    common outcome in growing data platforms when operational concerns are
-    handled locally by the teams closest to them. Left unchecked, it becomes
-    unmanageable.
+#     Platforms of this scope inevitably accumulate operational tasks: metadata
+#     indexing, storage cleanup, vacuuming and compaction, search reindexing,
+#     billing metering, and data export delivery. In our experience, these tasks
+#     grow organically and sprawl across services, repositories, runtimes, and
+#     inconsistent approaches to alerting and observability. At Dune, that sprawl
+#     grew into more than 50 jobs and services spread across Kubernetes CronJobs
+#     and Deployments, Prefect flows, Databricks jobs, and AWS Lambdas, each with
+#     its own retry logic and failure modes. This is not unique to Dune; it is a
+#     common outcome in growing data platforms when operational concerns are
+#     handled locally by the teams closest to them. Left unchecked, it becomes
+#     unmanageable.
 
-    DuneCP is the event-driven control plane we built to address this. In this
-    talk, we describe how DuneCP evolved from a consolidation effort into a
-    system that receives and acts on events signaling maintenance or other
-    internal actions: tracking storage consumption, reindexing table metadata,
-    checking and optimizing table health, purging tombstoned data, and
-    orchestrating incremental table export. It models operations as composable
-    events with lease-based worker coordination, heartbeat liveness, and
-    fault-tolerant recovery. It is used in production for proactive table
-    maintenance, table storage metering, and data delivery to customer Snowflake
-    and BigQuery accounts. We close with lessons from production and ongoing
-    work to expand its scope and flexibility.
-  biography: >
-    Miguel Mascarenhas Filipe is a Principal Engineer at Dune Analytics, where
-    he leads the Data Warehouse team. He designed DuneCP, an event-driven
-    control plane for DuneSQL - Dune's Trino-based distributed query engine for
-    blockchain data at scale - covering table health management, workload-aware
-    query routing, and cross-platform data delivery orchestration. He previously
-    led the design and development of DuneSQL itself, built on Parquet/Delta
-    Lake over S3 across millions of tables.
+#     DuneCP is the event-driven control plane we built to address this. In this
+#     talk, we describe how DuneCP evolved from a consolidation effort into a
+#     system that receives and acts on events signaling maintenance or other
+#     internal actions: tracking storage consumption, reindexing table metadata,
+#     checking and optimizing table health, purging tombstoned data, and
+#     orchestrating incremental table export. It models operations as composable
+#     events with lease-based worker coordination, heartbeat liveness, and
+#     fault-tolerant recovery. It is used in production for proactive table
+#     maintenance, table storage metering, and data delivery to customer Snowflake
+#     and BigQuery accounts. We close with lessons from production and ongoing
+#     work to expand its scope and flexibility.
+#   biography: >
+#     Miguel Mascarenhas Filipe is a Principal Engineer at Dune Analytics, where
+#     he leads the Data Warehouse team. He designed DuneCP, an event-driven
+#     control plane for DuneSQL - Dune's Trino-based distributed query engine for
+#     blockchain data at scale - covering table health management, workload-aware
+#     query routing, and cross-platform data delivery orchestration. He previously
+#     led the design and development of DuneSQL itself, built on Parquet/Delta
+#     Lake over S3 across millions of tables.
 
-    Before Dune, Miguel was a member of the launch team for Amazon DynamoDB,
-    where he worked on its control plane (partition management, replica
-    balancing, hotspot mitigation, and auto-healing of partitions and servers)
-    and was the main author of its provisioned throughput admission control
-    system. He holds 13 US patents on workload metering and throughput
-    maximization with QoS guarantees. He also held senior engineering roles at
-    Microsoft (Skype/ARIA data pipeline), Citymapper (distributed systems lead),
-    and Unbabel (core platform re-architecture).
+#     Before Dune, Miguel was a member of the launch team for Amazon DynamoDB,
+#     where he worked on its control plane (partition management, replica
+#     balancing, hotspot mitigation, and auto-healing of partitions and servers)
+#     and was the main author of its provisioned throughput admission control
+#     system. He holds 13 US patents on workload metering and throughput
+#     maximization with QoS guarantees. He also held senior engineering roles at
+#     Microsoft (Skype/ARIA data pipeline), Citymapper (distributed systems lead),
+#     and Unbabel (core platform re-architecture).
 
-    Miguel holds an MSc in Computer and Software Engineering from Instituto
-    Superior Técnico, Lisbon.
+#     Miguel holds an MSc in Computer and Software Engineering from Instituto
+#     Superior Técnico, Lisbon.
