@@ -44,7 +44,10 @@
               <h1>Institue for Lifecourse and Society (ILAS)</h1>
               
               <div style="text-align: center; margin: 30px 0;">
-                <img src="/img/Galway/ILAS.jpg" alt="Institute for Lifecourse and Society (ILAS), University of Galway" style="max-width:100%; height:auto; border-radius: 10px;" target = 'https://www.universityofgalway.ie/ilas/'>
+                <a href="https://www.universityofgalway.ie/ilas/" target="_blank" rel="noopener noreferrer">
+                  <img src="/img/Galway/ILAS.jpg" alt="Institute for Lifecourse and Society (ILAS), University of Galway" style="max-width:100%; height:auto; border-radius: 10px;">
+                </a>
+        
               </div>
               
               Located just minutes away from the
@@ -66,12 +69,12 @@
 
               <p>There are 3 airports than can be used to reach Galway
               <ul>
-                <li><b><a href='https://www.irelandwestairport.com/'>Ireland West airport</a>:</b>The smallest, only serves a few destinations in Europe
+                <li><b><a href='https://www.irelandwestairport.com/'>Ireland West airport</a>:</b> The smallest, only serves a few destinations in Europe
                 and the UK. It is within a 90 minute drive/bus ride from Galway</li>
-                <li><b><a href='https://www.shannonairport.ie/'>Shannon airport</a>:</b>Can be reached from the UK and a few places
+                <li><b><a href='https://www.shannonairport.ie/'>Shannon airport</a>:</b> Can be reached from the UK and a few places
                 in Europe, as well as some of the largest cities in the US. It provides US pre-clearance services and is within a bit
               more than one hour drive/bus ride from Galway city center</li>
-                <li><b><a href='https://www.dublinairport.com/'>Dublin airport</a>:</b>It covers a large number of destinations in 
+                <li><b><a href='https://www.dublinairport.com/'>Dublin airport</a>:</b> It covers a large number of destinations in 
                 Europe, the US, Asia, and to a smaller extent Africa. It also provides US ore-clearance services and
               is within a 2.5 hours drive/bus ride from Galway.</li>
               </ul>
@@ -101,13 +104,50 @@
               </ul>
 
               <h1>Campus Map</h1>
-            <div style="text-align: center; margin: 30px 0;">
-              <a href="/img/Galway/campus_map.pdf" target="_blank">
-                <img src="/img/Galway/campus_map_preview.png" alt="University of Galway Campus Map" style="max-width:100%; height:auto; border-radius: 10px; margin-bottom:10px;">
+              <div style="text-align: center; margin: 30px 0;">
+                <iframe
+                  src="/img/Galway/campus_map.pdf#page=1"
+                  width="600"
+                  height="800"
+                  style="border:1px solid #ccc; border-radius:10px; max-width:100%;"
+                  title="University of Galway Campus Map"
+                  loading="lazy"
+                >
+                  This browser does not support PDFs. Please download the PDF to view it: 
+                  <a href="/img/Galway/campus_map.pdf" target="_blank">Download Campus Map</a>
+                </iframe>
                 <br>
-                <span style="font-size: 1.1em;">View the full campus map (PDF)</span>
-              </a>
-            </div>
+                <a href="/img/Galway/campus_map.pdf" target="_blank" style="display:inline-block; margin-top:10px; font-size:1.1em;">
+                  View the full campus map (PDF)
+                </a>
+
+              <h1>Galway Tech Map</h1>
+              <div style="text-align: center; margin: 30px 0;">
+                <img id="techMapImg" src="/img/Galway/tech_map.png" alt="Galway Tech Map" style="max-width:100%; height:auto; border-radius: 10px; cursor: zoom-in;" onclick="openTechMapModal()">
+              </div>
+              
+              <!-- Modal for zooming the tech map -->
+              <div id="techMapModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85); justify-content:center; align-items:center;">
+                <span onclick="closeTechMapModal()" style="color:white; position:absolute; top:30px; right:50px; font-size:2.5em; font-weight:bold; cursor:pointer; z-index:10001;">&times;</span>
+                <img src="/img/Galway/tech_map.png" alt="Galway Tech Map Zoomed" style="max-width:90vw; max-height:90vh; border-radius: 10px; box-shadow:0 0 30px #222;">
+              </div>
+              <script>
+                function openTechMapModal() {
+                  var modal = document.getElementById('techMapModal');
+                  if (modal) modal.style.display = 'flex';
+                  document.body.style.overflow = 'hidden';
+                }
+                function closeTechMapModal() {
+                  var modal = document.getElementById('techMapModal');
+                  if (modal) modal.style.display = 'none';
+                  document.body.style.overflow = '';
+                }
+                // Optional: Close modal on ESC
+                document.addEventListener('keydown', function(e) {
+                  if (e.key === 'Escape') closeTechMapModal();
+                });
+              </script>
+              </div>
 
             </div>
           </div>
