@@ -11,17 +11,17 @@ gold_sponsors:
     link: https://sigsoft.org
     logo: img/clients/sigsoft_logo.png
     sidebar: false
-  - name: LASIGE
-    link: https://lasige.pt
-    logo: img/clients/lasige_logo.jpg
+  - name: Data Science Institute
+    link: https://universityofgalway.ie/dsi/
+    logo: img/clients/dsi_logo.jpg
     sidebar: false
-  - name: Ciências
-    link: https://ciencias.ulisboa.pt
-    logo: img/clients/ciencias_logo.png
+  - name: Rinn
+    link: https://www.researchireland.ie/rinn-network/
+    logo: img/clients/rinn_logo.png
     sidebar: false
-  - name: ULisboa
-    link: https://ulisboa.pt
-    logo: img/clients/ULisboa_logo.jpg
+  - name: University of Galway
+    link: https://www.universityofgalway.ie/
+    logo: img/clients/University_of_Galway_logo.jpg
     sidebar: false
   # - name: AoAEnergy
   #   link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/energy-area-of-advance/
