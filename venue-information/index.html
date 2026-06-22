@@ -125,30 +125,9 @@
 
               <h1>Galway Tech Map</h1>
               <div style="text-align: center; margin: 30px 0;">
-                <img id="techMapImg" src="/img/Galway/tech_map.png" alt="Galway Tech Map" style="max-width:100%; height:auto; border-radius: 10px; cursor: zoom-in;" onclick="openTechMapModal()">
+                <img src="/img/Galway/tech_map.png" alt="Galway Tech Map" style="max-width:100%; height:auto; border-radius: 10px;">
               </div>
-              
-              <!-- Modal for zooming the tech map -->
-              <div id="techMapModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85); justify-content:center; align-items:center;">
-                <span onclick="closeTechMapModal()" style="color:white; position:absolute; top:30px; right:50px; font-size:2.5em; font-weight:bold; cursor:pointer; z-index:10001;">&times;</span>
-                <img src="/img/Galway/tech_map.png" alt="Galway Tech Map Zoomed" style="max-width:90vw; max-height:90vh; border-radius: 10px; box-shadow:0 0 30px #222;">
-              </div>
-              <script>
-                function openTechMapModal() {
-                  var modal = document.getElementById('techMapModal');
-                  if (modal) modal.style.display = 'flex';
-                  document.body.style.overflow = 'hidden';
-                }
-                function closeTechMapModal() {
-                  var modal = document.getElementById('techMapModal');
-                  if (modal) modal.style.display = 'none';
-                  document.body.style.overflow = '';
-                }
-                // Optional: Close modal on ESC
-                document.addEventListener('keydown', function(e) {
-                  if (e.key === 'Escape') closeTechMapModal();
-                });
-              </script>
+     
               </div>
 
             </div>
