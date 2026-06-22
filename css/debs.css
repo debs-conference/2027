@@ -20,17 +20,19 @@ p, li {
 }
 
 #logo {
-    padding-top: 2px;
+    padding-top: 0;
     width: 190px;
 }
 
 .navbar-brand {
     padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 @media (max-width: 767px) {
     #logo {
-        padding-top: 10px;
+        padding-top: 8px;
     }
 }
 
@@ -113,6 +115,8 @@ header .navbar-default .navbar-nav li a {
 
 #slider {
     background-image: url('/img/Galway/Galway_top.jpg');
+    background-size: cover;
+    /* background-position: center 45%; */
     padding-bottom: 100px;
     padding-top: 100px;
 }
