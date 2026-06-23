@@ -22,6 +22,7 @@ p, li {
 #logo {
     padding-top: 0;
     width: 140px;
+    transform: translateY(-12px);
 }
 
 .navbar-brand {
