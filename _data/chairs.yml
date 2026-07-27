@@ -433,16 +433,16 @@ pc_members_industry:
 
 # Displayed as Industry and Application Co-charis in organising committee
 industry_chairs:
-  - firstname: TBC
-  #   lastname: Ritter
-  #   institution: SAP
+  - firstname: Piyush
+    lastname: Yadav
+    institution: Collins Aerospace, Ireland
   # - firstname: Nuno
   #   lastname: Cruz
   #   institution: ISEL/LASIGE    
 
-grand_challenge_chairs:
+#grand_challenge_chairs:
   
-    - firstname: TBC
+ #   - firstname: TBC
     #   lastname: De Martini
     #   institution: Politecnico di Milano
         
@@ -471,8 +471,8 @@ grand_challenge_chairs:
 #       lastname: Papadopoulos
 #       institution: Mälardalen University (Sweden) and University of Málaga (Spain)
 
-doctoral_symposium_chairs: 
-    - firstname: TBC
+#doctoral_symposium_chairs: 
+  #  - firstname: TBC
       # lastname: Schiavoni
       # institution: Université de Neuchâtel, Switzerland
       # email: 
@@ -483,8 +483,8 @@ doctoral_symposium_chairs:
 
 
 #  This is used in page Printing Posters in conference info (The email ID)
-pc_members_poster_demo: 
-    - firstname: TBC
+#pc_members_poster_demo: 
+ #   - firstname: TBC
     #   lastname: Luthra
     #   institution:  Ruhr University Bochum 
     #   email: manisha.luthra@rub.de
@@ -527,8 +527,8 @@ pc_members_poster_demo:
 #       lastname: Elghandour
 #       institution: SAP, US
 
-poster_demo_chairs: 
-    - firstname: TBC
+#poster_demo_chairs: 
+    #- firstname: TBC
     #   lastname: Luthra
     #   institution:  Ruhr University Bochum 
     # - firstname: Bernardo
@@ -536,10 +536,10 @@ poster_demo_chairs:
     #   institution: CIÊNCIAS ULisboa, Portugal
 
 # Can't find so didn't change for now
-diversity_chairs: 
-   - firstname: Genoveva 
-     lastname: Vargas-Solar
-     institution: French Council of Scientific Research (CNRS)
+#diversity_chairs: 
+ #  - firstname: Genoveva 
+  #   lastname: Vargas-Solar
+   #  institution: French Council of Scientific Research (CNRS)
 #    - firstname: Vana 
 #      lastname: Kalogeraki
 #      institution: Athens University of Economics and Business
@@ -565,9 +565,9 @@ diversity_chairs:
 #       institution: CIÊNCIAS ULisboa, Portugal
 
 proceeding_chairs: 
-   - firstname: TBC
-    #  lastname: Lima
-    #  institution: ESHTE, Portugal
+   - firstname: Liam
+     lastname: Tirpitz
+     institution: RWTH Aachen University
 
 local_organizer_chairs: 
    - firstname: Nakul
