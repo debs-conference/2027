@@ -7,12 +7,12 @@ general_chairs:
     #   institution: ISEL, Portugal
 
 pc_chairs:
-    - firstname:   TBC
-    #   lastname:    Mayer
-    #   institution: University of Bayreuth, Germany
-    # - firstname:   Sukanya
-    #   lastname:    Bhowmik
-    #   institution: University of Potsdam, Germany
+    - firstname:   Valerio
+      lastname:    Schiavoni
+      institution: Université de Neuchâtel, Switzerland
+    - firstname:   Sandra
+      lastname:    Geisler
+      institution: RWTH Aachen University
 
 # finance_chairs:
 #     - firstname: Filip
