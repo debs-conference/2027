@@ -575,8 +575,8 @@ local_organizer_chairs:
     #  institution: ESHTE, Portugal
      
 web_chairs: 
-    - firstname: TBC
-      # lastname: Almeida
+    - firstname: Lucas
+    - lastname: Rabelo
       # institution: CIÊNCIAS ULisboa, Portugal
 
 # podcast_chairs:
