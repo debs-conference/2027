@@ -576,7 +576,7 @@ local_organizer_chairs:
      
 web_chairs: 
     - firstname: Lucas
-    - lastname: Rabelo
+        lastname: Rabelo
       # institution: CIÊNCIAS ULisboa, Portugal
 
 # podcast_chairs:
