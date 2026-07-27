@@ -570,10 +570,14 @@ proceeding_chairs:
     #  institution: ESHTE, Portugal
 
 local_organizer_chairs: 
-   - firstname: TBC
-    #  lastname: Lima
-    #  institution: ESHTE, Portugal
+   - firstname: Nakul
+     lastname: Mehta
+     institution: University of Galway, Ireland
+   - firstname: Ping
+     lastname: Song
+     institution: University of Galway, Ireland
      
+
 web_chairs: 
     - firstname: Lucas
       lastname: Rabelo
