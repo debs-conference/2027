@@ -5,46 +5,46 @@ conference_dates_calls: TBA
 abstract_submission_fall:
     # old: November 11st, 2023
     # current: November 18st, 2023
-    current: TBA
+    current: 16th February, 2027 
 
 research_submission_fall:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 23rd February, 2027    
 
 rebuttal_phase_fall:
-    current: TBA
+    current: 13th April, 2027
 
 research_notification_fall:
-    current: TBA
+    current: 27th April, 2027
  
 camera_ready_fall:
-    current: TBA
+    current: 25th May, 2027
 
 abstract_submission_spring:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 16th February, 2027 
 
 research_submission_spring:
    # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 23rd February, 2027    
 
 rebuttal_phase_spring_start:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 13th April, 2027
     
 rebuttal_phase_spring_end:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 20th April, 2027
     
 research_notification_spring:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 27th April, 2027
 
 research_finaldecision_spring:
     current: TBA
@@ -52,7 +52,7 @@ research_finaldecision_spring:
 camera_ready_spring:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBA
+    current: 25th May, 2027
  
 industry_submission:
     # old: November 18h, 2023
