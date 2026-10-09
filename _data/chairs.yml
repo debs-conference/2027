@@ -446,13 +446,13 @@ grand_challenge_chairs:
       lastname: Margara
       institution: Politecnico di Milano
 
-    - firstname: Luca 
-      lastname: De Martini
-      institution: Politecnico di Milano
-
     - firstname: Daniele 
       lastname: Dell’Aglio
       institution: Aalborg University
+
+    - firstname: Luca 
+      lastname: De Martini
+      institution: Politecnico di Milano
 
     - firstname: Vincenzo 
       lastname: Gulisano
@@ -480,10 +480,10 @@ grand_challenge_chairs:
 #       lastname: Papadopoulos
 #       institution: Mälardalen University (Sweden) and University of Málaga (Spain)
 
-#doctoral_symposium_chairs: 
-  #  - firstname: TBC
-      # lastname: Schiavoni
-      # institution: Université de Neuchâtel, Switzerland
+doctoral_symposium_chairs: 
+     - firstname: Victoria
+       lastname: Degeler
+       institution:  University of Amsterdam, The Netherlands
       # email: 
 #     - firstname: Roman 
 #       lastname: Vitenberg
@@ -536,8 +536,10 @@ grand_challenge_chairs:
 #       lastname: Elghandour
 #       institution: SAP, US
 
-#poster_demo_chairs: 
-    #- firstname: TBC
+poster_demo_chairs: 
+    - firstname: Priyanka
+      lastname: Verma
+      institution: University of Galway, Ireland
     #   lastname: Luthra
     #   institution:  Ruhr University Bochum 
     # - firstname: Bernardo
