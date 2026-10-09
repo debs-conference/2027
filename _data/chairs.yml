@@ -536,10 +536,10 @@ industry_chairs:
     #   institution: CIÊNCIAS ULisboa, Portugal
 
 # Can't find so didn't change for now
-#diversity_chairs: 
- #  - firstname: Genoveva 
-  #   lastname: Vargas-Solar
-   #  institution: French Council of Scientific Research (CNRS)
+diversity_chairs: 
+   - firstname: Genoveva 
+     lastname: Vargas-Solar
+     institution: French Council of Scientific Research (CNRS)
 #    - firstname: Vana 
 #      lastname: Kalogeraki
 #      institution: Athens University of Economics and Business
