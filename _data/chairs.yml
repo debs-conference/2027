@@ -440,15 +440,24 @@ industry_chairs:
   #   lastname: Cruz
   #   institution: ISEL/LASIGE    
 
-#grand_challenge_chairs:
-  
- #   - firstname: TBC
-    #   lastname: De Martini
-    #   institution: Politecnico di Milano
-        
-    # - firstname: Alessandro 
-    #   lastname: Margara
-    #   institution: Politecnico di Milano
+grand_challenge_chairs:
+          
+    - firstname: Alessandro 
+      lastname: Margara
+      institution: Politecnico di Milano
+
+    - firstname: Luca 
+      lastname: De Martini
+      institution: Politecnico di Milano
+
+    - firstname: Daniele 
+      lastname: Dell’Aglio
+      institution: Aalborg University
+
+    - firstname: Vincenzo 
+      lastname: Gulisano
+      institution: Chalmers University of Technology
+
 
     # - firstname: Jawad
     #   lastname: Tahir
