@@ -441,10 +441,6 @@ industry_chairs:
   #   institution: ISEL/LASIGE    
 
 grand_challenge_chairs:
-          
-    - firstname: Alessandro 
-      lastname: Margara
-      institution: Politecnico di Milano
 
     - firstname: Daniele 
       lastname: Dell’Aglio
@@ -457,6 +453,11 @@ grand_challenge_chairs:
     - firstname: Vincenzo 
       lastname: Gulisano
       institution: Chalmers University of Technology
+
+    - firstname: Alessandro 
+      lastname: Margara
+      institution: Politecnico di Milano
+
 
 
     # - firstname: Jawad
