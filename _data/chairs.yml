@@ -436,9 +436,9 @@ industry_chairs:
   - firstname: Piyush
     lastname: Yadav
     institution: Collins Aerospace, Ireland
-  # - firstname: Nuno
-  #   lastname: Cruz
-  #   institution: ISEL/LASIGE    
+  - firstname: Josiane 
+    lastname: Xavier Parreira 
+    institution: Siemens AG Austria, Austria    
 
 grand_challenge_chairs:
 
