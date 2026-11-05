@@ -5,33 +5,23 @@
 <html lang="en">
 
 <head>
-    <title>CALL FOR DOCTORAL SYMPOSIUM</title>
+    <title>CALL FOR DOCTORAL SYMPOSIUM CONTRIBUTIONS</title>
     {% include head-tags.html %}
 </head>
 
 <body>
 
     {% include header.html %}
-    {% include slider-regular-page.html title="CALL FOR DOCTORAL SYMPOSIUM" %}
+    {% include slider-regular-page.html title="CALL FOR DOCTORAL SYMPOSIUM CONTRIBUTIONS" %}
 
     <section id="call-for-doctoral-symposium">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-12">
                     <div class="block">
-                        <!-- <div> -->
-                        <!--     <h1>News and Highlights</h1> -->
-                        <!--     <p> -->
-                        <!--         <li><b>Note:</b>The PhD Symposium contributions are now available! Check <a -->
-                        <!--                 class="text-left" href="/accepted-contributions/">here</a></li> -->
-                        <!--         <li><b>Note:</b>The submission and notification deadlines for the Doctoral Symposium -->
-                        <!--             have been extended by one week!</li> -->
-                        <!--     </p> -->
-                        <!-- </div> -->
                         <div>
-                            <h1>Call for Doctoral Symposium</h1>
-                            TBC
-                            <!-- <p>
+                            <h1>Call for Doctoral Symposium Contributions</h1>
+                            <p>
                                 The Doctoral Symposium provides PhD students a forum to present research results, and to
                                 receive constructive feedback and mentoring. Students at different stages will be able
                                 to present and discuss their problem statement, goals, methods, and results. The forum
@@ -39,18 +29,23 @@
                                 established researchers and other PhD students working in research areas related to
                                 distributed event-based systems. Additionally, the forum aims to enable PhD students to
                                 interact with the other participants to stimulate an exchange of ideas and experiences.
-                            </p> -->
+                            </p>
 
-                            <!-- <p>
+                            <p>
                                 The Symposium welcomes submissions by PhD candidates working in distributed and
-                                event-based computing and data analysis. We are interested in all the topics of DEBS
+                                event-based computing and data analysis, such as solutions for collecting, detecting, processing,
+                                analysing, and responding to events through distributed middleware, systems, and platform.
+                                We are interested in all the topics of DEBS
                                 2027, including, but not limited to:
+                            </p>
                             <ul class="nested-list">
-                                <li>TBC</li>
+                                <li>Systems Design and Data Management</li>
+                                <li>Security and Privacy</li>
+                                <li>AI/ML for Systems and Systems for AI/ML</li>
+                                <li>Applications, Use-Cases, and Benchmarks</li>
                             </ul>
-                            </p> -->
 
-                            <!-- <p>
+                            <p>
                                 Accepted submissions will need to be presented during the Doctoral Symposium.
                                 Additionally, the students will be provided an opportunity to present a poster at the
                                 main conference. Accepted submissions will be posted on the website of the DEBS
@@ -64,43 +59,34 @@
                                 references) and must adhere to the <b>two-column "sigconf" ACM conference proceeding
                                     style</b>. Templates and examples in LaTeX and various versions of Microsoft Word
                                 are available for download from the ACM Master Article Template web pages at
-                                www.acm.org/publications/proceedings-template. Submissions must be in PDF (Adobe’s
+                                <a href="https://www.acm.org/publications/proceedings-template">www.acm.org/publications/proceedings-template</a>. Submissions must be in PDF (Adobe’s
                                 Portable Document Format) format.
                             </p>
 
                             <p>
-                                Submissions must be <b>single-author</b>, on the topic of the doctoral work. <b>The PhD
-                                    supervisor's name must be clearly marked ("supervised by ...") on the paper, under
+                                Submissions must be <b>single-author</b>, on the topic of the doctoral work. <b>The name(s) of the PhD supervisor(s) must be clearly marked ("supervised by ...") on the paper, under
                                     the author's name</b>.
                             </p>
 
                             <p>
                                 Papers in PDF format may be
-                                submitted via Microsoft CMT
-                                (<a href="https://cmt3.research.microsoft.com/DEBS2026/">https://cmt3.research.microsoft.com/DEBS2026/</a>)
+                                submitted via HotCRP
+                                (<a href="https://debs27.hotcrp.com/">https://debs27.hotcrp.com/</a>)
                                 to the "Doctoral Symposium" track.
-                            </p> -->
-                             
-                            <!-- {% if site.data.chairs.doctoral_symposium_chairs.size > 0 %}
-                                <p>Inquiries can be sent to:</p>
-                                <ul>
-                                  {% for chair in site.data.chairs.doctoral_symposium_chairs %}
-                                   {% if chair.email != null %}
-                                     <li> <a href="mailto:{{ chair.email }}">{{ chair.firstname }} {{chair.lastname}}</a></li>
-                                     {% else %}
-                                      <li> {{ chair.firstname }} {{chair.lastname}}</li>
-                                     {% endif %}
-                                  {% endfor %}
-                                </ul>
-                                {% endif %}   -->
+                            </p>
+                            <p>Inquiries can be sent to:</p>
+                            <ul>
+                                <li>Victoria Degeler, <a href="mailto:v.o.degeler@uva.nl">v.o.degeler@uva.nl</a></li>
+                            </ul>
                         </div>
 
-                        <!-- <div>
+                        <div>
                             <h1>Submission Structure</h1>
 
                             <p>
                                 Submissions should be written based on the following structure, which focuses on the key
                                 methodological components required for a sound research synthesis:
+                            </p>
                             <ul class="nested-list">
                                 <li><i>Problem Statement</i>: What is the core problem your PhD investigates? Why is it
                                     relevant? How valuable are the results to the problem (external validity)?</li>
@@ -124,7 +110,6 @@
                                     What are the main challenges you are facing? Why do you think your research will be
                                     successful?</li>
                             </ul>
-                            </p>
 
                             <p>
                                 The forum is open to all PhD students. PhD students at the beginning of their research
@@ -135,45 +120,23 @@
                                 the DEBS Doctoral Symposium.
                             </p>
 
-                        </div> -->
-<!-- 
+                        </div>
+
                         <div style="margin-bottom: 50px;">
-                          <h1>Important Dates</h1>                        
+                          <h1>Important Dates</h1>
                             <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
                             <ul>
-                            <li>Doctoral symposium paper submission: <b>{% if
-                                    site.data.dates.doctoral_symposium_submission.old!=""
-                                    %}<del>{{site.data.dates.doctoral_symposium_submission.old}}</del> {% endif %}{% if
-                                    site.data.dates.doctoral_symposium_submission.current
-                                    %}{{site.data.dates.doctoral_symposium_submission.current}}{% else %}tba{% endif
-                                    %}</b>
-                            </li>
-
-                            <li>Notification of acceptance: <b>{% if
-                                    site.data.dates.doctoral_symposium_author_notification.old!=""
-                                    %}<del>{{site.data.dates.doctoral_symposium_author_notification.old}}</del> {% endif
-                                    %}{%
-                                    if site.data.dates.doctoral_symposium_author_notification.current
-                                    %}{{site.data.dates.doctoral_symposium_author_notification.current}}{% else %}tba{%
-                                    endif
-                                    %}</b></li>
-
-                            <li>Camera ready deadline (for publication on website): <b>{% if
-                                    site.data.dates.doctoral_symposium_camera_ready.old!=""
-                                    %}<del>{{site.data.dates.doctoral_symposium_camera_ready.old}}</del> {% endif %}{%
-                                    if
-                                    site.data.dates.doctoral_symposium_camera_ready.current
-                                    %}{{site.data.dates.doctoral_symposium_camera_ready.current}}{%
-                                    else %}tba{% endif %}</b></li>
-
-                            <li>Conference: <b>{{site.data.dates.conference_dates_calls}}</b></li>
+                            <li>Doctoral symposium paper submission: <b>April 19, 2027</b></li>
+                            <li>Notification of acceptance: <b>April 30, 2027</b></li>
+                            <li>Camera ready deadline (for publication on website): <b>17th May, 2027</b></li>
+                            <li>Conference: <b>June 29 – July 1, 2027</b></li>
                             </ul>
-                        </div> -->
+                        </div>
 
-                        
+
                         <!-- D&I Section -->
-                        <!-- <div style="margin-bottom: 50px;">
-                            <h1>Diversity & Inclusion Resources</h1>
+                        <div style="margin-bottom: 50px;">
+                            <h1>Diversity &amp; Inclusion Resources</h1>
                             <p>
                                 We encourage all participants to contribute to a respectful, inclusive, and professional
                                 environment. Please take a moment to consult the following important resources:
@@ -190,7 +153,7 @@
                                         rel="noopener noreferrer">ACM Policy Against Harassment (Code of Conduct)</a>
                                 </li>
                             </ul>
-                        </div> -->
+                        </div>
 
                     </div>
                 </div>
