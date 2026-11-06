@@ -40,7 +40,7 @@
 
                         </div>
                         <div>
-                            
+
                             <h1>Tutorials</h1>
 
                             <p>
@@ -49,7 +49,7 @@
 
                         </div>
                         <div>
-                            
+
                             <h1>Workshops</h1>
 
                             <p>
@@ -63,7 +63,7 @@
 
                         </div>
                         <div>
-                            
+
                             <h1>Proposal submission structure</h1>
 
                             <p>
@@ -85,7 +85,7 @@
 
                         </div>
                         <div>
-                            
+
                             <h1>Accepted Proposals</h1>
 
                             <p>
@@ -93,16 +93,16 @@
                             </p>
 
                         </div>
-                        
+
                         <div>
                             <h1>Important Dates</h1>
                             <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
                             <ul>
-                            <li>Tutorial Proposal Submission: <b>{{site.data.dates.tutorial_proposal_submission.current}}</b></li>                            
+                            <li>Tutorial Proposal Submission: <b>{{site.data.dates.tutorial_proposal_submission.current}}</b></li>
                             <li>Author Notification for Tutorials: <b>{{site.data.dates.tutorial_proposal_author_notification.current}}</b></li>
                             <li>Camera Ready Deadline: <b>{{site.data.dates.tutorial_camera_ready.current}}</b></li>
-                            <li>Conference: <b>{{site.data.dates.conference_dates}}</b></li>                            
-                            </ul>                            
+                            <li>Conference: <b>{{site.data.dates.conference_dates}}</b></li>
+                            </ul>
                         </div>
 
                         <div>
@@ -114,7 +114,7 @@
                             </p>
                         </div>
 
-                        <div>                       
+                        <div>
                             {% if site.data.chairs.grand_challenge_chairs %}
                             <h1>Tutorial and Workshops Chairs</h1>
                             <ul>
@@ -122,27 +122,17 @@
                             <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
                             {% endfor %}
                             </ul>
-                            {% endif %}                               
+                            {% endif %}
                         </div>
                         <div>
                             <h1>ACM Policies and Procedures</h1>
+                           {% include acm-publication-statements.html %}
                            <p>
-                               By submitting your article to an ACM Publication, you are hereby acknowledging that you 
-                               and your co-authors are subject to all <a href="https://www.acm.org/publications/policies">ACM Publications Policies</a>, 
-                               including <a href="https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects">ACM's 
-                                   Publications Policy on Research Involving Human Participants and Subjects</a>. ACM will investigate alleged 
-                               violations of this policy or any ACM Publications Policy and may result in a full retraction 
-                               of your paper, in addition to other potential penalties, as per ACM Publications Policy.
-                           </p>
-                           <p>
-                               Regarding <a href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship">ACM Policy on Authorship</a>, 
-                               which also provides policies on the use of generative AI tools in preparing manuscripts, please check the 
+                               Regarding <a href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship">ACM Policy on Authorship</a>,
+                               which also provides policies on the use of generative AI tools in preparing manuscripts, please check the
                                <a href="https://www.acm.org/publications/policies/frequently-asked-questions">frequently asked questions</a> page.
                            </p>
-                           <p class="justfy">
-                               Please ensure that you and your co-authors obtain <a href="https://authors.acm.org/author-resources/orcid-faqs">an ORCID ID</a>, 
-                               so you can complete the publishing process for your accepted paper.
-                           </p>
+
                        </div>
                     </div>
                 </div>
